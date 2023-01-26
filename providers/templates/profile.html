@@ -1,0 +1,356 @@
+{% extends 'base_bulma.html' %}
+{% block content %}
+{% load static %}
+<style>
+    a {
+        color: #212529;
+        text-decoration: none;
+        /* no underline */
+    }
+    .justify-content-start {
+        justify-content: flex-start;
+    }
+    .justify-content-end {
+        justify-content: flex-end;
+    }
+    .button.is-multiline {
+        min-height: 2.25em;
+        white-space: unset;
+        height: auto;
+        flex-direction: column;
+      }
+</style>
+<div class="columns is-mobile is-variable is-multiline is-centered is-8-desktop mt-4">
+    <div class="column is-half-desktop is-three-quarters-touch">
+        
+        <br>
+            <h2 class="title is-2">
+                {% if provider.admin_first_name %}
+                    Velkommen {{ provider.admin_first_name  }}!
+                {% else %}
+                    Velkommen!
+                {% endif %}
+            </h2>
+            {% if not provider.is_public %}
+            <p class="pb-0">Følgende punkter skal udfyldes, for at profilen kan aktiveres!</p>
+
+            <div class="column">
+            {% for req in provider.publication_requirement_list%}
+                {% if req.1 %}
+                <span><i class="has-text-info fas fa-check pr-4"></i></span>
+                {% else %}
+                <span><i class="has-text-danger-dark fas fa-times pr-4 mr-1" ></i></span>
+                {%endif%}
+                <span class="">{{req.0}}</span></br>
+                {% endfor %}
+            </div>
+            
+            {% else %}
+            <p class="pb-0 has-text-weight-bold">Tilbuddet er aktivt på Børnebasen! </p>
+            <div class="column">
+                {% for req in provider.publication_requirement_list%}
+                    {% if req.1 %}
+                    <span><i class="has-text-info fas fa-check pr-4"></i></span>
+                    {% else %}
+                    <span><i class="has-text-danger-dark fas fa-times pr-4 mr-1" ></i></span>
+                    {%endif%}
+                    <span class="">{{req.0}}</span></br>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <div class="columns is-centered">
+                <div class="column pt-4 is-12 has-text-centered">
+                <form method="post">
+                    {%csrf_token%}
+                    <input type="hidden" 
+                        name="action"
+                    {% if not provider.is_public %}
+                        value="makepublic"
+                    {% else %}
+                        value="makeprivate"
+                    {% endif %}
+                    >
+                    <input type="submit" 
+                        {% if not provider.publication_requirements_sattisfied %}
+                            disabled
+                        {% endif %}
+                        class="button is-primary has-text-left has-text-black has-text-weight-bold is-medium is-fullwidth mb-4 justify-content-start" ;
+                        {% if provider.is_public %}
+                            value="Deaktivér min profil!"
+                        {% else %}
+                            value="Aktivér min profil!"
+                        {% endif %}
+                        name="save_public_or_private"
+                    />
+                </form>
+                </div>
+            </div>
+
+
+            <h4 class="title is-4 mb-0 pb-0"> Tilføj og ret informationer </h4>
+            <p class="pb-4">Her kan du tilføje og rette de oplysninger vi har om dit tilbud </p>
+            <a href="{% url 'profile_contact'%}">
+            <button  class="button is-info is-medium is-fullwidth mb-4 justify-content-start" href="{% url 'profile_contact'%}" type="button" class="list-group-item">
+                <h5 class="title is-5 has-text-white">
+                    Kontaktoplysninger
+                </h5>
+            </button>
+            </a>
+            <a href="{% url 'profile_services'%}">
+            <button class="button is-info is-medium is-fullwidth  mb-4 justify-content-start"  class="list-group-item">
+                <h5 class="title is-5 has-text-white">
+                    Indsatser  
+                </h5>
+            </button>
+            </a>
+            <a class="" href="{% url 'profile_about'%}"> 
+            <button class="button is-info is-medium is-fullwidth  mb-4 justify-content-start"  class="list-group-item">
+                <h5 class="title is-5 has-text-white">
+                    Tilbudsoplysninger 
+                </h5>
+            </button>
+            </a> 
+
+            {% if provider.is_beginner %}
+            <button class="button is-info is-medium is-fullwidth is-flex  mb-4 is-multiline-mobile"  disabled class="list-group-item"> 
+                <div class="column pl-0 is-6 has-text-left">
+                <h5 class="title is-5">
+                    <span>
+                    <a class="has-text-white">Uddybbende oplysninger</a> 
+                    </span>
+                </h5>
+                </div>
+                <div class="column pr-0 is-6 has-text-right">
+                <h5>
+                <span class="justify-content">
+                    <a class="has-text-white ml-5"> BASIS </a> 
+                    </span>
+                    <span class="icon is-small has-text-warning">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    </span>
+                </h5>
+                </div>
+            </button>
+            {% endif %}
+            {% if provider.is_basis or provider.is_expert %}
+            <a href="{% url 'profile_basis'%}">
+            <button class="button is-info is-medium is-fullwidth is-flex  mb-4" class="list-group-item" > 
+                <div class="column pl-0 is-6 has-text-left">
+                <h5 class="title is-5">
+                    <span class="has-text-white" >
+                    Uddybbende oplysninger
+                    </span>
+                </h5>
+                </div>
+                <div class="column pr-0 is-6 has-text-right">
+                <h5 class="title is-5">
+                    <span class="has-text-white"> BASIS </span> 
+                    <span class="icon is-small has-text-warning">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    </span>
+                </h5>
+                </div>
+            </button>
+            </a>
+            {% endif %}
+            <a href="{% url 'profile_postal_codes'%}">
+            <button class="button is-info is-medium is-fullwidth justify-content-start"  class="list-group-item">
+                <h5 class="title is-5 has-text-white">
+                    Områder 
+                </h5>
+            </button>
+        </a>
+
+
+            <br/>
+            <br/>
+            
+            <h4 class="title is-4 mb-0"> Forhåndsvisning </h3>
+            <p class="pb-3 pt-3"> Her kan du se, hvordan din profil ser ud på søgesiden.</p>
+            <div class="has-text-centered">
+            <form action="/provider/{{provider.id}}" method="GET">
+                <input type="submit" class="button has-text-left has-text-weight-bold is-primary is-medium is-fullwidth is-flex" ;
+                    value="Se dit tilbud" />
+            </form>
+            </div>
+            <br/>
+            <br/>
+            <h4 class="title is-4 mb-0">Bag om min profil</h3>
+            <div class="has-text-centered" >
+            <a href="{% url 'profile_admin'%}"> 
+                <button class="button justify-content-start has-text-weight-bold is-primary is-medium is-fullwidth is-flex  mt-4 mb-4" href="{% url 'profile_admin'%}">
+                        Indstillinger 
+            </div>
+
+            {% if provider.is_beginner %}
+            <button class="button is-primary is-medium is-fullwidth is-flex  mb-4 is-multiline-mobile"  disabled class="list-group-item"> 
+                <div class="column pl-0 is-6 has-text-left">
+                <h5 class="title is-5">
+                    <span>
+                    <a class="has-text-black">Den faglige værktøjskasse</a> 
+                    </span>
+                </h5>
+                </div>
+                <div class="column pr-0 is-6 has-text-right">
+                <h5>
+                <span class="justify-content">
+                    <a class="has-text-black ml-5">BASIS</a> 
+                    </span>
+                    <span class="icon is-small has-text-warning">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    </span>
+                </h5>
+                </div>
+            </button>
+            {% endif %}
+            {% if provider.is_basis or provider.is_expert %}
+            <a href="{% url 'profile_toolbox'%}"> 
+            <button class="button is-primary is-medium is-fullwidth is-flex  mb-4" class="list-group-item" > 
+                <div class="column pl-0 is-6 has-text-left">
+                <h5 class="title is-5">
+                    <span class="has-text-black" >
+                        Den faglige værktøjskasse
+                    </span>
+                </h5>
+                </div>
+                <div class="column pr-0 is-6 has-text-right">
+                <h5 class="title is-5">
+                    <span class="has-text-black"> BASIS </span> 
+                    <span class="icon is-small has-text-warning">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    </span>
+                </h5>
+                </div>
+            </button>
+            </a>
+            {% endif %}
+    </div>
+    {% if provider.is_beginner or provider.is_basis %}
+    <div class="column is-4-desktop is-three-quarters-touch">
+        <br>
+        {% if provider.is_beginner %}
+        <div class="box has-background-warning">
+            <div class="has-text-centered">
+                <p class="title is-3 has-text-dark">NYHED</p>
+                <p class="subtitle title is-5"><b class="has-text-dark">Nu kan du få basis med månedlig betaling</b></p>
+                <p class="subtitle">Ingen opstartsgebyr - Ingen binding - Ingen opsigelsesperiode</p>
+                <a class="button is-link is-rounded has-background-primary has-text-dark"
+                    href="https://www.boernebasen.dk/priser">
+                    Læs mere her
+                </a>
+            </div>
+        </div>
+        {% endif %}
+        <div class="box has-background-primary">
+            {% if provider.is_beginner %}
+            <div class="has-text-centered">
+                <a href="https://www.boernebasen.dk/priser">
+                <h4 class="button is-flex is-hidden-mobile is-hidden-tablet-only is-info title has-text-white has-text-centered is-4 mb-0">
+                    <span class="has-text-white pr-4 is-multiline">Opgrader til Basis </span>
+                    <span><i class="has-text-warning fas fa-star"></i></span>
+                </h4>
+                </a>
+                <a class="is-hidden-desktop" href="https://www.boernebasen.dk/priser">
+                <h4 class="button is-flex is-info is-hidden-desktop is-multiline title has-text-white has-text-centered is-4 mb-0">
+                    <span class="has-text-white pr-4 is-multiline">Opgrader til Basis </span>
+                    <span><i class="has-text-warning fas fa-star"></i></span>
+                </h4>
+                </a>
+            </div>
+            <h2 class="title has-text-centered is-2 has-text-dark mb-0 pb-2 mt-5">fra 69,-</h2>
+            <p class=" has-text-centered has-text-dark">
+                per måned ekskl. moms
+            </p>
+            <div class="buttons is-centered is-three-quarters mb-2 mt-2">
+                <a class="button is-link is-rounded is-multiline is-warning has-text-centered has-text-dark mt-2 mb-2" href="https://www.boernebasen.dk/priser">
+                    Køb nu
+                </a>
+            </div>
+            </br>
+            <div class="pl-4 pr-4">
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">Begynder</span></br>
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">Visning af logo</span></br>
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">Beskrivelse af dit tilbud</span></br>
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">Beskrivelse af metoder og tilgange</span></br>
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">Beskrivelse af indsatser</span></br>
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">Link direkte til din hjemmeside</span></br>
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">Visning af samarbejdskommuner</span></br>
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">En faglig værktøjskasse</span></br>
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">Faglige webinarer</span></br>
+                <span><i class="has-text-dark fas fa-check"></i></span>
+                <span class="has-text-dark">Bliv en del af "Børnebasens faggruppe"</span></br>
+                <span><i class="has-text-grey fas fa-check"></i></span>
+                <span class="has-text-grey">Statistik over aktivitet på din profil</span></br>
+                <span><i class="has-text-grey fas fa-check"></i></span>
+                <span class="has-text-grey">Få forespørgelser direkte på Børnebasen</span></br>
+                <span><i class="has-text-grey fas fa-check"></i></span>
+                <span class="has-text-grey">Få indlæg på Fagbloggen</span></br>
+                <span><i class="has-text-grey fas fa-check"></i></span>
+                <span class="has-text-grey">Eksklusivt event kun for Eksperter</span></br>
+                <span><i class="has-text-grey fas fa-check"></i></span>
+                <span class="has-text-grey">Rabat på Børnebasen events</span></br>
+            </div>
+            <hr class="has-background-dark">
+            {%endif%}
+            <!-- Expert -->
+            {% if not provider.is_expert %}
+            <div class="has-text-centered">
+                <!-- For Desktop users --> 
+                <a href="https://www.boernebasen.dk/priser">
+                    <h4 class="button is-flex is-hidden-mobile is-hidden-tablet-only is-info title has-text-white has-text-centered is-4 mb-0">
+                    <span class="has-text-white pr-4 is-multiline">Opgrader til Ekspert </span>
+                    <span><i class="has-text-warning far fa-gem"></i></span>
+                    </h4>
+                </a>
+                <!-- For mobile/tablet users -->
+                <a href="https://www.boernebasen.dk/priser">
+                    <h4 class="button is-flex is-info is-hidden-desktop is-multiline title has-text-white has-text-centered is-4 mb-0">
+                    <span class="has-text-white pr-4">Opgrader til Ekspert </span>
+                    <span><i class="has-text-warning far fa-gem"></i></span>
+                    </h4>
+                </a>
+            </div>
+                <h2 class="title has-text-centered is-2 has-text-dark mb-2 mt-5">399,-</h2>
+                <p class=" has-text-centered has-text-dark mt-2">
+                    per måned ekskl. moms
+                    <br>
+                    Betales årligt
+                </p>
+                <div class="buttons is-centered is-three-quarters mb-2 mt-2">
+                    <a class="button is-rounded is-link is-multiline is-warning has-text-centered has-text-dark mt-2 mb-2" href="https://www.boernebasen.dk/priser">
+                        Køb nu
+                    </a>
+                    </div>
+                </br>
+                <div class="pl-4 pr-4">
+                    <span><i class="has-text-dark fas fa-check"></i></span>
+                    <span class="has-text-dark">Basis</span></br>
+                    <span><i class="has-text-dark fas fa-check"></i></span>
+                    <span class="has-text-dark">Statistik over aktivitet på din profil</span></br>
+                    <span><i class="has-text-dark fas fa-check"></i></span>
+                    <span class="has-text-dark">Få forespørgelser direkte på Børnebasen</span></br>
+                    <span><i class="has-text-dark fas fa-check"></i></span>
+                    <span class="has-text-dark">Få indlæg på Fagbloggen</span></br>
+                    <span><i class="has-text-dark fas fa-check"></i></span>
+                    <span class="has-text-dark">Eksklusivt event kun for Eksperter</span></br>
+                    <span><i class="has-text-dark fas fa-check"></i></span>
+                    <span class="has-text-dark">Rabat på Børnebasen events</span></br>
+                </div>
+                {% endif %}
+            </div>
+    </div>
+    {% endif %}
+</div>
+<br>
+
+{% endblock content %}

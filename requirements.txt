@@ -1,0 +1,34 @@
+django~=3.2
+psycopg2-binary~=2.8
+pillow
+PyMySQL
+dj-database-url
+gunicorn
+whitenoise
+django-storages
+boto3
+django-anymail
+
+djangorestframework
+markdown # For a browseable REST api
+django-filter # Needed for djangorestframework
+django-widget-tweaks
+
+psutil # To monitor memory usage in debugging
+
+# SSO
+msal
+requests
+pyyaml
+
+# Mailchimp
+mailchimp_marketing
+
+# Time zones
+pytz
+
+# Analytics
+openpyxl
+pandas
+numpy
+tqdm

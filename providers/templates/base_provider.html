@@ -1,0 +1,76 @@
+{% load static %}
+<html lang="en">
+
+<!-- Are we using this template? -->
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T57KBBL');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R1R12RWB1T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R1R12RWB1T');
+    </script>
+
+    {% if ga_user_info %}
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'crm_id': '{{ ga_user_info.id }}',
+            'user_type': '{{ ga_user_info.type }}',
+            'user_organization': '{{ ga_user_info.organization }}',
+            'event': 'user_info_set',
+        })
+    </script>
+    {% endif %}
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css" /> {% if title %}
+    <title>{{ title }} | Børnebasen</title>
+    {% else %}
+    <title>Børnebasen</title>
+    {% endif %} {% block css %}
+
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}" type="text/css" />
+
+    <script type="text/javascript" src="{%static 'search.js'%}">
+    </script>
+
+    <link rel="stylesheet" href="{% static 'mdb.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'mdb.min.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'datatables.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'datatables.min.css' %}" type="text/css" /> {% endblock %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                {% block content %} {% endblock content %}
+            </div>
+        </div>
+    </div>

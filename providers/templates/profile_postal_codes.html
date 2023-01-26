@@ -1,0 +1,261 @@
+{% extends 'base_jquery.html' %}
+{% block content %}
+<!-- Where do we put our custom css?? -->
+<style>
+    .scrollable-checkboxes {
+        height: 12rem;
+        width: auto;
+        overflow-y: scroll;
+        padding: 1rem;
+    }
+
+    .scrollable-checkboxes::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    .scrollable-checkboxes::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: rgba(73, 105, 99, 0.3);
+    }
+
+    .scrollable-checkboxes::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgb(33, 37, 41);
+    }
+</style>
+
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h2>Udfyld hvor du tilbyder din hjælp</h2>
+            <p>Du kan enten udfylde områder eller postnumre</p>
+            <hr>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <div class="row mt-3">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <!-- test dict -->
+                <div class="row">
+                    {% for area_id, area in areas.items %}
+                    {% if forloop.first %}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Area -->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card"
+                                        style="margin-bottom: 0.85rem; margin-top: 0em; padding-top: 0.575rem; padding-bottom: 0.575rem; background-color: rgb(155, 214, 202); border-color: transparent;">
+                                        <div class="form-check"
+                                            style="margin-left: 1.75em; margin-top: -0.18em; margin-bottom: -0.18em;">
+                                            <input class="form-check-input" type="checkbox" areaid="{{ area_id }}">
+                                            <label class="form-check-label">{{ area.name }}</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Postal codes for area -->
+                            <div id="pc-{{area_id}}" class="scrollable-checkboxes mb-3">
+                                {% for pc in area.codes %}
+                                <div class="row">
+                                    <div class="col">
+                                        <input class="form-check-input" type="checkbox" name="pc" value="{{pc.id}}"
+                                            areaid="{{ area_id }}">
+                                        <label class="form-check-label" for="pc-{{pc.id}}">
+                                            {{ pc.name }}
+                                        </label>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% else %}
+                        <div class="col-md-6">
+                            <!-- Area -->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card"
+                                        style="margin-bottom: 0.85rem; margin-top: 0em; padding-top: 0.575rem; padding-bottom: 0.575rem; background-color: rgb(155, 214, 202); border-color: transparent;">
+                                        <div class="form-check"
+                                            style="margin-left: 1.75em; margin-top: -0.18em; margin-bottom: -0.18em;">
+                                            <input class="form-check-input" type="checkbox" areaid="{{ area_id }}">
+                                            <label class="form-check-label">{{ area.name }}</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Postal codes for area -->
+                            <div id="pc-{{area_id}}" class="scrollable-checkboxes mb-3">
+                                {% for pc in area.codes %}
+                                <div class="row">
+                                    <div class="col">
+                                        <input class="form-check-input" type="checkbox" name="pc" value="{{pc.id}}"
+                                            areaid="{{ area_id }}">
+                                        <label class="form-check-label" for="pc-{{pc.id}}">
+                                            {{ pc.name }}
+                                        </label>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endif %}
+                        {% if forloop.counter|divisibleby:"2" %}
+                    </div>
+                    <div class="row">
+                        {% endif %}
+                        {% if forloop.last %}
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <br>
+                <div class="row">
+                    <a href="{% url 'profile' %}" class="btn bb-dark-button col ms-2 me-2">
+                        Tilbage
+                    </a>
+                    <input type="submit" class="btn bb-light-button col ms-2 me-2" value="Gem">
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </form>
+</div>
+
+{% endblock content %}
+{% block jquery %}
+<script>
+
+    /*  This can definitely be optimized, but time is of the essence.
+        Sorry to the next person.
+        - Asger */
+
+    $(document).ready(function () {
+        initCheckboxes();
+
+        /* Set up event listeners */
+        // Area checkboxes
+        $(".card input:checkbox").on("click", function () {
+            togglePcGroup(this);
+        });
+
+        // Postal code checkboxes
+        $("div[id^='pc-'] input:checkbox").on("click", function () {
+            areaId = $(this).attr("areaid");
+            toggleDuplicateCheckboxes(this);
+            toggleAreaCheckboxes(areaId);
+        });
+    });
+
+    function initCheckboxes() {
+        selectCurrentPcs();
+        toggleAreaCheckboxes();
+    }
+
+    function getAreaIds() {
+        return JSON.parse('{{area_ids|safe}}');
+    }
+
+    function getAreaCheckbox(areaId) {
+        return $(`.card input:checkbox[areaid='${areaId}']`)[0]
+    }
+
+    function entireGroupSelected(areaId) {
+        // Check if all checkboxes in a group are selected
+        checkboxDivId = `pc-${areaId}`;
+        return !($(`#${checkboxDivId} input:checkbox`).not(':checked').length > 0)
+    }
+
+    function selectCurrentPcs() {
+        // Select the checkboxes for the postal codes currently
+        // saved on the provider
+        const currentPcIds = JSON.parse("{{current_pc_ids_json}}");
+        currentPcIds.forEach(id => {
+            $("input:checkbox[value='" + id + "']").prop("checked", true);
+        });
+    }
+
+    function getDuplicates(checkbox) {
+        const pcId = $(checkbox).val();
+        const duplicates = $(`input:checkbox[value='${pcId}']`);
+        return duplicates;
+    }
+
+    function toggleDuplicateCheckboxes(selectedCheckbox) {
+        const duplicates = getDuplicates(selectedCheckbox);
+
+        if (duplicates.length === 1) return;
+        if ($(selectedCheckbox).is(":checked")) {
+            duplicates.prop("checked", true);
+        } else {
+            duplicates.prop("checked", false);
+        }
+
+    }
+
+    function toggleAreaCheckbox(areaId) {
+        // If all postal codes in an area are selected,
+        // the checkbox for that area will be selected.
+        areaCheckbox = getAreaCheckbox(areaId);
+        entGroupSelected = entireGroupSelected(areaId);
+        if (entGroupSelected) {
+            $(areaCheckbox).prop("checked", true);
+        } else {
+            $(areaCheckbox).prop("checked", false);
+        }
+    }
+
+    function toggleAreaCheckboxes() {
+        areaIds = getAreaIds();
+        areaIds.forEach(id => {
+            toggleAreaCheckbox(id);
+        });
+    }
+
+    function togglePcGroup(areaCheckbox) {
+        // Select/deselect all postal codes in an area
+        // by checking the area checkbox above it
+        areaId = $(areaCheckbox).attr("areaid");
+        if ($(areaCheckbox).is(":checked")) {
+            selectPcGroup(areaId);
+        } else {
+            deselectPcGroup(areaId);
+        }
+        toggleAreaCheckboxes(areaId);
+    }
+
+    function selectPcGroup(areaId) {
+        $postalCodes = $(`#pc-${areaId} input:checkbox`);
+        $postalCodes.prop("checked", true);
+
+        const len = $postalCodes.length;
+        for (let i = 0; i < len; i++) {
+            // console.log($postalCodes[i]);
+            $duplicates = getDuplicates($postalCodes[i]);
+            $($duplicates).prop("checked", true);
+        }
+    }
+
+    function deselectPcGroup(areaId) {
+        $postalCodes = $(`#pc-${areaId} input:checkbox`);
+        $postalCodes.prop("checked", false);
+
+        const len = $postalCodes.length;
+        for (let i = 0; i < len; i++) {
+            // console.log($postalCodes[i]);
+            $duplicates = getDuplicates($postalCodes[i]);
+            $($duplicates).prop("checked", false);
+        }
+    }    
+</script>
+{% endblock %}

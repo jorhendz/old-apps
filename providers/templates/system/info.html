@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Børnebasen.dk</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/mdb.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="col-md-12">
+</div>
+
+<div class="container-fluid">
+	<!-- Grey with black text -->
+<br />
+<div class="col-md-12">
+<div class="row">
+
+<div class="col-md-3">
+<a id="backbutton" class="btn btn-default text-center backbutton" href="">Tilbage</a>
+</div>
+<div class="col-md-6 text-center">
+
+ <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <!--<div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>-->
+        <div class="modal-body">
+          <p>
+	          <div class="vidensdeling alert alert-info" role="alert" style="display:none;">
+<p>Har du tidligere erfaringer med dette tilbud?</p>
+<div class="btn-group" role="group" aria-label="...">
+<a href="" id="0" class="viden btn btn-sm btn-warning brugt btn-outline">Ingen erfaring</a>
+<a href="" id="1" class="viden btn btn-sm btn-info ikkebrugt">Lidt erfaring</a>
+<a href="" id="2" class="viden btn btn-sm btn-success kendskab">Meget erfaring</a>
+
+</div>
+</div>
+<div id="tak" style="display:none;">
+<div class="alert alert-success" role="alert">
+	Tak for dit input til vidensdeling.
+</div>
+</div>
+ <form action="" id="vidensform">
+   <input type="hidden" name="udbyder_id" value="{{ provider.id }}">
+ <input type="hidden" id="videnvalue" name="videnvalue" value="">
+ {#<input type="hidden" name="user_id" value="<? echo $_SESSION['id']; ?>">#}
+ {# <input type="hidden" name="kommune" value="<? echo $_SESSION['kommune']; ?>">#}
+ <input type="hidden" name="form" value="gemviden">
+ </form>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+<script>
+$(document).ready(function()
+{
+	$(".viden").on("click", function(e)
+	{
+		$("#videnvalue").val(this.id);
+		$("#vidensform").submit();
+		$('#myModal').modal('hide');
+		e.preventDefault();
+    });
+
+	//form submit
+	$('#vidensform').on('submit',function(e) {
+			$.ajax({
+			url:'gemviden.php',
+			data:$(this).serialize(),
+			type:'POST',
+			success:function(data){
+
+			//setTimeout(function(){ $("#tak").hide(); }, 5000);
+			//=== Show Success Message==
+			},
+			});
+			e.preventDefault(); //=== To Avoid Page Refresh and Fire the Event "Click"===
+		});
+
+
+});
+</script>
+<?
+	}
+?>
+</div>
+<div class="col-md-3 text-right">
+	<p class="red-text" style="text-align:right; font-size: 0.690em; margin-bottom: 0.075rem; margin-right: 0.375rem;">Denne funktion er ikke aktiv for din kommune</p>
+	<a class="btn btn-default text-center" style="margin-top:0.175rem;"  target="_blank"  role="button" disabled>Vis samarbejdsaftale</a>
+	<!--Link for 'samarbejdsaftale'
+	 href="samarbejdsaftale.php?uid=<? echo $uid; ?>"-->
+</div>
+</div>
+<hr />
+</div>
+<?
+}
+?>
+
+<!-- In case of preview as social provider -->
+<div class="col-md-12">
+<div class="row">
+
+<div class="col-md-3">
+<a id="backbutton" class="btn btn-default text-center backbutton" href="">Tilbage</a>
+</div>
+</div>
+<hr />
+</div>
+
+<br />
+
+<script>
+$(document).ready(function()
+{
+	$(".backbutton").on("click", function(e)
+	{
+	$("#myTab").show();
+	$('#loadinfo').fadeOut( "slow" );
+	$("#maintaps").fadeIn( "slow" );
+	$("html, body").animate({ scrollTop: 0 }, "slow");
+	e.preventDefault();
+
+    });
+
+	window.onpopstate = function() {
+		$("#myTab").show();
+	$('#loadinfo').fadeOut( "slow" );
+	$("#maintaps").fadeIn( "slow" );
+	$("html, body").animate({ scrollTop: 0 }, "slow");
+}; history.pushState({}, '');
+
+
+});
+
+</script>
+<div class="col-md-12">
+	<div class="row">
+
+		<hr />
+ <div class="col-md-3">
+  <!--Grid column-->
+    <div class="col-md-12">
+
+        <!--Grid row-->
+        <div class="row mb-2">
+        <div class="col-2">
+            <i class="fa fa-2x fas fa-map-marker-alt"></i>
+        </div>
+        <div class="col-10 text-left">
+          
+          <? if($getudbydere2['logo']) { ?><img src="../admin/logos/<? echo $getudbydere2['logo']; ?>" style="max-height:60px; max-width:250px;" ><? } else { echo "<h2>".$getudbydere2['navn']."</h2>"; } ?>
+        	<br />
+            <h5 class="font-weight-bold"><? echo $getudbydere2['navn']; if($getudbydere2['stiftet']) { echo " (".$getudbydere2['stiftet'].")"; } ?></h5>
+            <p class="grey-text"><? echo $getudbydere2['adresse']; ?><br />
+		        	<? if($getudbydere2['postnr']) { echo $getudbydere2['postnr']; } ?> <? echo $getudbydere2['byen']; ?>
+		        	<? if($getudbydere2['adresse']) { ?>
+		        		<br />
+		        		<a href="#">Find vej</a><br />
+		        	<? } ?>
+		        	<?
+				$get_udmaerkelse = mysqli_query($con, "SELECT udmaerkelse, img FROM bornebasen_udmaerkelse INNER JOIN bornebasen_udbydere_udmaerkelse ON bornebasen_udbydere_udmaerkelse.udmaerkelse_id = bornebasen_udmaerkelse.id WHERE bornebasen_udbydere_udmaerkelse.udbyder_id = ".$uid." ORDER by udmaerkelse");
+
+				while($get_udmaerkelse2 = mysqli_fetch_assoc($get_udmaerkelse))
+				{
+					echo "<br /><img src='../admin/logos/".$get_udmaerkelse2['img']."' width='60' ><br />".$get_udmaerkelse2['udmaerkelse']." ";
+				}
+			 	?><br /><br />
+		        	</p>
+        </div>
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row mb-2">
+        <div class="col-2">
+            <i class="fa fa-2x fas fa-phone"></i>
+        </div>
+        <div class="col-10 text-left">
+            <h5 class="font-weight-bold">Kontakt</h5>
+            <p class="grey-text">
+              {% if provider.contact_name %}
+              <i class="fas fa-user-alt fa-1x"> {{ provider.contact_name }} </i> </br>
+              {% endif %}
+              {% if provider.contact_phone %}
+                <i class="fas fa-phone fa-1x"> {{ provider.contact_phone }} </i> <br>
+              {% endif %}
+              {% if provider.contact_phone_2 %}
+                <i class="fas fa-phone fa-1x"> {{ provider.contact_phone_2 }} </i> <br>
+              {% endif %}
+              {% if provider.contact_email %}
+                <i class="fas fa-envelope fa-1x"> {{ provider.contact_email }} </i> <br>
+              {% endif %}
+              {% if provider.contact_email_2 %}
+              <i class="fas fa-envelope fa-1x"> {{ provider.contact_email_2 }} </i> </br>
+              {% endif %}
+              {% if provider.contact_website %}
+              <i class="fas fa-globe-africa fa-1x"> {{ provider.contact_website }} </i> </br>
+              {% endif %}
+            </p>
+        </div>
+        </div>
+        <!--Grid row-->
+
+
+		 <!--Grid row-->
+        <div class="row mb-2">
+        <div class="col-2">
+            <i class="fa fa-2x fas fa-map-marked-alt"></i>
+        </div>
+        <div class="col-10 text-left">
+            <h5 class="font-weight-bold">Kort</h5>
+            <p class="grey-text">
+            <iframe style="padding-left:0px;" class="col-sm-12 col-xs-0" height="200" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q={{provider.contact_address}},+<? echo $getudbydere2['postnr']; ?>,+<? echo 			$getudbydere2['byen']; ?>&key=AIzaSyBP4iCFaa3luUBjTg910TmsxDtPxHva41w"></iframe>
+            </p>
+        </div>
+        </div>
+        <!--Grid row-->
+
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+
+<div class="col-md-6">
+        <!--Grid row-->
+        <div class="row mb-2">
+        <!--<div class="col-2">
+            <i class="fa fa-2x fas fa-hands"></i>
+        </div>-->
+        <div class="col-12 text-left">
+            <h5 class="font-weight-bold">Ydelser</h5>
+            <p class="grey-text">
+
+	           <div class="row">
+	           	<div class="col-md-12">
+	           	Virksomheden arbejder inden for følgende områder.<br /><br />
+	           	</div>
+
+		<div class="col-12">
+
+
+		<div class="row">
+		</div>
+		</div>
+		</div>
+		<hr />
+		<p class="grey-text">
+          {{ provider.service_description | linebreaks }}
+		</p>
+        </div>
+        </div>
+
+        <!--Grid row-->
+
+	<!--Grid row-->
+        <div class="row mb-2">
+       <!--<div class="col-2">
+            <i class="fa fa-2x fas fa-align-justify"></i>
+        </div>-->
+        <div class="col-12 text-left">
+            <h5 class="font-weight-bold">Beskrivelse af stedet</h5>
+            <p class="grey-text">
+            {{ provider.company_description}}<br><br>
+            </p>
+        </div>
+        <?
+	        }
+        ?>
+        </div>
+        <!--Grid row-->
+	<div class="row mb-2">
+		<div class="col-12 text-left">
+
+		<b>Temaer</b><br /><hr />
+			<p class="grey-text">
+              {% for theme in themes %}
+                {{ theme }} <br>
+              {% endfor %}
+			</p>
+		</div>
+	</div>
+
+		</div>
+		<div class="col-md-3">
+
+
+		 <!--Grid row-->
+        <div class="row mb-2">
+        <div class="col-2">
+            <i class="fa fa-2x fa-info"></i>
+        </div>
+        <div class="col-10 text-left">
+            <h5 class="font-weight-bold">Info</h5>
+            <p class="grey-text">
+            Målgruppe: {{ provider.sexes }}, {{provider.min_age}}-{{provider.max_age}} år <br>
+            Ventetid: {{ provider.waiting_time }} <br>
+            {{ provider.status_report_interval }} <br>
+
+            {% if provider.open_hours %}
+            Åbningstider: {{ provider.open_hours }}
+            {% endif %}
+            </p>
+        </div>
+        </div>
+        <!--Grid row-->
+
+
+        <!--Grid row-->
+        <div class="row mb-2">
+        <div class="col-2">
+            <i class="fa fa-2x fa-car"></i>
+        </div>
+        <div class="col-10 text-left">
+            <h5 class="font-weight-bold">Område(r) tilbuddet dækker</h5>
+            <p class="grey-text">
+              {% for area in provider.regions.all %}
+                {{ area }} <br>
+              {% endfor %}
+              <br>
+            </p>
+        </div>
+        </div>
+        <!--Grid row-->
+
+		<!--Grid row-->
+        <div class="row mb-2">
+        <div class="col-2">
+            <i class="fa fa-2x fa-language"></i>
+        </div>
+        <div class="col-10 text-left">
+            <h5 class="font-weight-bold">Sprog</h5>
+            <p class="grey-text">
+              {% for language in provider.languages.all %}
+                {{ language }} <br>
+              {% endfor %}
+              <br />
+            </p>
+        </div>
+        </div>
+        <!--Grid row-->
+		<!--Grid row-->
+        <div class="row mb-2">
+
+<?
+if($_SESSION["kommune"])
+{
+?>
+
+
+
+<?
+$count = 0;
+
+if($kommunedata['vidensdeling']==1)
+
+	{
+
+		?>
+		 <div class="col-2">
+            <i class="fa fa-2x fa-lightbulb"></i>
+        </div>
+
+           <div class="col-10 text-left">
+
+    <h5 class="font-weight-bold">Tidligere erfaringer</h5>
+
+
+			<p class="grey-text">
+
+		   Vidensdeling ikke aktiveret.
+
+			</p>
+</div>
+		<?
+
+	}
+
+
+
+else if($kommunedata['vidensdeling']==2)
+
+	{
+
+		//DELER ANTAL AF ERFARINGER INTERNT
+
+		$get_viden = mysqli_fetch_assoc(mysqli_query($con, "SELECT COUNT(*) AS antal_erfaringer FROM users
+		INNER JOIN vidensdeling ON users.id = vidensdeling.user_id
+		WHERE (users.id <> 6 AND users.id <> 13)
+		AND vidensdeling.udbyder_id = ".$uid." AND niveau > 0 AND vidensdeling.kommune_id = ".$_SESSION['kommune']." "));
+
+		if($get_viden['antal_erfaringer']>0)
+		{
+		$count++;
+		?>
+ <div class="col-2">
+            <i class="fa fa-2x fa-lightbulb"></i>
+        </div>
+
+           <div class="col-10 text-left">
+
+    <h5 class="font-weight-bold">Tidligere erfaringer</h5>
+			<p class="grey-text">
+
+		    <b><? echo $get_viden['antal_erfaringer']; ?> har erfaring med dette tilbud.</b>
+
+			</p>
+           </div>
+		<?
+		}
+
+
+
+	}
+
+
+
+else if($kommunedata['vidensdeling']==3)
+
+	{
+
+	//DELER NAVN, TELEFON, EMAIL INTERNT
+
+		$get_viden = mysqli_query($con, "SELECT kommune, niveau, users.phone, users.email, name, vidensdeling.create_date FROM users
+		INNER JOIN vidensdeling ON users.id = vidensdeling.user_id
+		INNER JOIN kommuner ON kommuner.id = vidensdeling.kommune_id
+		WHERE (users.id <> 6 AND users.id <> 13)
+		AND vidensdeling.udbyder_id = ".$uid." AND niveau > 0 AND vidensdeling.kommune_id = ".$_SESSION['kommune']."
+		ORDER by vidensdeling.id DESC LIMIT 3");
+
+		while($viden = mysqli_fetch_assoc($get_viden))
+
+		{
+		$count++;
+		$dato =	New DateTime($viden['create_date']);
+		$datoprint = $dato -> format("d/m - Y");
+		?>
+ <div class="col-2">
+            <i class="fa fa-2x fa-lightbulb"></i>
+        </div>
+
+           <div class="col-10 text-left">
+
+    <h5 class="font-weight-bold">Tidligere erfaringer</h5>
+			<p class="grey-text">
+
+		    <b><? echo $viden['name']; ?> fra <? echo $viden['kommune']; ?></b>
+
+		    <br /><? if($viden['niveau'] == 1) { echo "Lidt erfaring"; } else if($viden['niveau'] == 2) { echo "Meget erfaring"; } ?> d. <? echo $datoprint; ?>
+
+	       	<br />Tlf. <? echo $viden['phone']; ?> / <? echo $viden['email']; ?>
+
+			<br />
+
+			</p>
+           </div>
+		<?
+
+		}
+
+
+	}
+
+
+
+else if($kommunedata['vidensdeling']==4)
+
+	{
+
+	//DELER NAVN, TELEFON, EMAIL INTERNT OG MED ANDRE KOMMUNER
+
+		$get_viden = mysqli_query($con, "SELECT kommune, niveau, users.phone, users.email, name, vidensdeling.create_date FROM users
+		INNER JOIN vidensdeling ON users.id = vidensdeling.user_id
+		INNER JOIN kommuner ON kommuner.id = vidensdeling.kommune_id
+		WHERE (users.id <> 6 AND users.id <> 13)
+		AND vidensdeling.udbyder_id = ".$uid." AND niveau > 0
+		ORDER by vidensdeling.id DESC LIMIT 3");
+
+		while($viden = mysqli_fetch_assoc($get_viden))
+
+		{
+		$count++;
+		$dato =	New DateTime($viden['create_date']);
+		$datoprint = $dato -> format("d/m - Y");
+
+
+		?>
+ <div class="col-2">
+            <i class="fa fa-2x fa-lightbulb"></i>
+        </div>
+
+           <div class="col-10 text-left">
+
+    <h5 class="font-weight-bold">Tidligere erfaringer</h5>
+			<p class="grey-text">
+
+		    <b><? echo $viden['name']; ?> fra <? echo $viden['kommune']; ?></b>
+
+		    <br /><? if($viden['niveau'] == 1) { echo "Lidt erfaring"; } else if($viden['niveau'] == 2) { echo "Meget erfaring"; } ?> d. <? echo $datoprint; ?>
+
+	       	<br />Tlf. <? echo $viden['phone']; ?> / <? echo $viden['email']; ?>
+
+			<br />
+
+			</p>
+           </div>
+		<?
+
+		}
+
+
+	}
+
+}
+?>
+
+
+        </div>
+        <!--Grid row-->
+
+
+
+
+			</div>
+
+
+			</div>
+</div>
+</div>
+<!-- <!-- JQuery -->
+
+ </body>
+</html>

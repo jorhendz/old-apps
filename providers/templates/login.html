@@ -1,0 +1,114 @@
+{% extends "base_bulma_no_analytics.html" %}
+{% load static %}
+
+
+{% block content %}
+
+{% if next %}
+{% if request.user.is_authenticated %}
+<p>Your account doesn't have access to this page. To proceed,
+  please login with an account that has access.</p>
+{% else %}
+<p>Please login to see this page.</p>
+{% endif %}
+{% endif %}
+
+<style>
+  #id_password {
+    width: 100%;
+    box-shadow: none;
+    
+  }
+
+  #id_username {
+    width: 100%;
+    box-shadow: none;
+    placeholder: "hej";
+  }
+</style>
+
+
+<br /><br />
+
+<div class="columns is-centered is-multiline is-mobile">
+  <!-- First column 'Already member'-->
+  <div class="column has-text-centered is-one-quarter-desktop is-three-quarters-mobile is-two-thirds-tablet">
+    <div class="box has-background-primary"  style="box-shadow:none;">
+    <h4 class="title is-4 mb-0">Er du medlem? </h4>
+    
+
+    <br />
+    <h4 class="title is-4 mb-0">Log ind her!</h4>
+    <form method="post" action="{% url 'login' %}">
+      {% csrf_token %}
+      <div class="field">
+        {% csrf_token %}
+        {% if form.errors %}
+      </div>
+      <div class="has-text-danger">
+        <p>Forkert brugernavn eller kodeord indtastet.</p>
+      </div>
+      {% endif %}
+      <br />
+      <div class="field control has-icons-left mt-2" >
+        {{ form.username }}
+        <span class="icon is-small is-left">
+          <i class="fas fa-envelope"></i>
+        </span>
+      </div>
+      <div class="field control has-icons-left mb-0 pb-3">
+        {{ form.password }}
+        <span class="icon is-small is-left">
+          <i class="fas fa-lock"></i>
+        </span>
+      </div>
+      <br>
+      <div class="field" style="box-shadow:none;">
+        <button type="submit" class="button mt-3 is-info is-fullwidth">
+          Log ind</button>
+        <input type="hidden" name="next" value="{{ next }}">
+      <br /><br />
+      <h4 class="subtitle is-6 mb-0">Glemt din adgangskode?</h4>
+      <a class="is-underlined has-text-info" href="{% url 'password_reset' %}" > Nulstil kode</a>
+      </div> <!-- ??-->
+    </form>
+    <hr class="bb-hr">
+       <h4 class="subtitle is-6 mb-0">Har din kommune Single-Sign-On?</h4>
+          <a class="is-underlined has-text-info" href="{% url 'signin' %}">
+      Log ind her med Single-Sign-On
+      </a>
+    </div>
+    <div class="is-hidden-desktop">
+    <hr class="bb-hr">
+    </div>
+    </div>
+    <!-- Spacing column -->
+    </div>
+  <div class="column has-text-centered is-1-desktop is-hidden-tablet-only is-hidden-mobile">
+    </div>
+  <!-- Third column 'Create a new account'  -->
+  <div class="column has-text-centered is-one-quarter-desktop is-three-quarters-mobile is-two-thirds-tablet">
+    <div class="box has-background-info"  style="box-shadow:none;">
+    <h4 class="title is-4 mb-0 has-text-white">Opret dig som medlem og få GRATIS ADGANG til Børnebasen her!</h4>
+      <br/>
+      {# <a href="" style="color: black !important;"> Opret ny virksomhed </a> #}
+      <!-- 
+      <h6 class="subtitle is-6 mb-2">Ønsker du gratis at oprette et socialt tilbud?</h6>
+      <a class="button is-primary is-fullwidth" href="{% url 'provider-signup' %}" > Opret nyt socialt tilbud </a>
+      <br><br>
+      -->
+      <h6 class="subtitle is-6 mt-5 pt-1 mb-2 has-text-white">Arbejder du i en kommune?</h6>
+      <a class="button pb-0 is-primary is-fullwidth" href="{%url 'signup' %}" > Opret dig her</a>
+      <br>
+      <h6 class="subtitle is-6 mb-2 has-text-white">Har du en anden arbejdsplads?</h6>
+      <a class="button is-primary is-fullwidth mb-2" href="{%url 'professional-subscriber-signup' %}" > Opret dig her </a>
+      <br><br>
+      <br><br>
+      <br><br>
+      <br>
+      <br>
+    </div>
+    </div>
+  </div>
+
+{% endblock %}

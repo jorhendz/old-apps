@@ -1,0 +1,203 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager (must be the first tag in <head>) -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-T57KBBL');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R1R12RWB1T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        const dont_send_events = '{{ dont_send_events }}';
+        if (dont_send_events === 'True') {
+            gtag('config', 'G-R1R12RWB1T', {
+                send_page_view: false
+            });
+        } else {
+            gtag('config', 'G-R1R12RWB1T');
+        }
+    </script>
+
+    {% if ga_user_info %}
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'crm_id': '{{ ga_user_info.id }}',
+            'user_type': '{{ ga_user_info.type }}',
+            'user_organization': '{{ ga_user_info.organization }}',
+            'event': 'user_info_set',
+        })
+    </script>
+    {% endif %}
+
+    <link rel="icon" type="image/png" href="{% static 'logo_icon.png' %}">
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> {% if title %}
+    <title>{{ title }} | Børnebasen</title>
+    {% else %}
+    <title>Børnebasen</title>
+    {% endif %}
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="{% static 'bulma/css/bulma.css' %}" type="text/css" /> -->
+    <link rel="stylesheet" href="{% static 'bulma/css/bulma.min.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'bb-style.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'bulma/css/bb-styles.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'bulma-tooltip/dist/css/bulma-tooltip.min.css' %}" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{%static 'bulma-collapsible/dist/css/bulma-collapsible.min.css' %}" />
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="{%static 'js/bulma_nav.js'%}">
+    </script>
+    <script type="text/javascript" src="{% static 'jquery-3.6.0.min.js' %}"></script>
+    <script type="text/javascript" src="{%static 'bulma-collapsible/dist/js/bulma-collapsible.min.js' %}"></script>
+    <script type="text/javascript" src="{%static 'bulma-collapsible/dist/src/js/index.js' %}"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+</head>
+
+
+<body style="font-family: Roboto-Light,sans-serif  ">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T57KBBL" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {% block header %}
+    <nav class="navbar is-spaced is-dark pb-0 pt-0 mb-0" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand is-hidden-mobile is-hidden-tablet-only">
+            {% if not request.user.is_authenticated %}
+            <a class="navbar-item pl-0" href="https://www.boernebasen.dk/">
+                <img src="{% static 'logo_bornebasen_white.png' %}" width="224" max-height="2rem">
+            </a>
+            {% endif %} {% if request.user.is_authenticated %}
+            <a class="navbar-item pl-0" href="/search">
+                <img src="{% static 'logo_bornebasen_white.png' %}" width="224" max-height="2rem">
+            </a>
+            {% endif %}
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-brand is-hidden-desktop">
+            {% if not request.user.is_authenticated %}
+            <a class="navbar-item pl-4" href="https://www.boernebasen.dk/">
+                <img src="{% static 'logo_bornebasen_white.png' %}" width="224" max-height="2rem">
+            </a>
+            {% endif %} {% if request.user.is_authenticated %}
+            <a class="navbar-item pl-4" href="/search">
+                <img src="{% static 'logo_bornebasen_white.png' %}" width="224" max-height="2rem">
+            </a>
+            {% endif %}
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                {% if user.socialworker %}
+                <a class="navbar-item" href="/search">
+                    Ny søgning
+                </a>
+                <a class="navbar-item" href="/legislation">
+                    Lovgivning
+                </a> {% if user.socialworker.municipality.feature_methods %}
+                <a class="navbar-item" href="/work_methods">
+                    Metoder
+                </a> {% endif %} {% if user.socialworker.municipality.feature_shared_knowledge %}
+                <a class="navbar-item" href="/shared_knowledge">
+                    Viden på tværs
+                </a> {% endif %} {% endif %}
+            </div>
+
+            <div class="navbar-end">
+
+                <a class="navbar-item">
+                    <a class="navbar-item" href="/help">
+                        Hjælp
+                    </a> {% if request.user.is_authenticated %}
+                    <a class="navbar-item" href="{% url 'logout' %}">
+                        Log ud
+                    </a>
+            </div>
+            {% endif %}
+        </div>
+        </div>
+    </nav>
+
+    {% endblock header %} {% block content %} {% endblock content %}
+
+
+    <!-- Script needed in order for bulma-tooltip to work-->
+    <script>
+        $(".modal-button").click(function () {
+            var target = $(this).data("target");
+            $("html").addClass("is-clipped");
+            $(target).addClass("is-active");
+        });
+
+        $(".modal-close").click(function () {
+            $("html").removeClass("is-clipped");
+            $(this).parent().removeClass("is-active");
+        });
+    </script>
+
+    <!-- Script needed for Bulma collapsible / the accordion to work -->
+    <script>
+        'use strict';
+
+        function ready(handler) {
+            if (/complete|loaded|interactive/.test(document.readyState) && document.body) {
+                handler();
+            } else {
+                document.addEventListener('DOMContentLoaded', handler, false);
+            }
+        }
+
+        var _clickEvents = ['click', 'touchstart'];
+
+        ready(function () {
+            bulmaCollapsible.attach();
+        });
+    </script>
+
+
+</body>
+
+</html>

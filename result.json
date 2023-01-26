@@ -1,0 +1,91 @@
+{
+    "GENERAL": {
+        "Social workers": 57
+    },
+    "EVENTS": {
+        "April": 36,
+        "May": 40,
+        "June": 50
+    },
+    "PAGEVIEWS": {
+        "Number of page paths:": 42,
+        "Page paths": {
+            "/search/": 16,
+            "/provider/2461/": 2,
+            "/provider/4318/": 1,
+            "/provider/3833/": 1,
+            "/provider/3455/": 1,
+            "/provider/3402/": 1,
+            "/provider/3217/": 1,
+            "/provider/3212/": 1,
+            "/provider/3183/": 1,
+            "/provider/2975/": 1,
+            "/provider/2818/": 1,
+            "/provider/385/": 1,
+            "/provider/175/": 1,
+            "/provider/43/": 1,
+            "/provider/2291/": 1,
+            "/provider/1153/": 1,
+            "/provider/1262/": 1,
+            "/provider/1731/": 1,
+            "/provider/1864/": 1,
+            "/provider/3037/": 1,
+            "/provider/1861/": 1,
+            "/provider/4317/": 2,
+            "/provider/1389/": 1,
+            "/provider/4522/": 1,
+            "/provider/3796/": 1
+        }
+    },
+    "SEARCHES": {
+        "Number of searches:": 175,
+        "Successful searches:": 36,
+        "Null searches:": 5,
+        "Not null searches:": 31,
+        "Search parameters used:": {
+            "freetext": 23,
+            "postal_codes": 80,
+            "is_volunteer_organization": 23,
+            "service_category": 61,
+            "themes": 30
+        },
+        "Service categories:": {
+            "null": 114,
+            "Aflastning \u00a744 SEL": 9,
+            "Psykologiske unders\u00f8gelse \u00a746 SEL": 6,
+            "Ferielejr": 3,
+            "D\u00f8gninstitution \u00a766 stk.1 nr.7 SEL": 6,
+            "Opholdssted \u00a766 stk.1 nr.6 SEL": 11,
+            "Bolig \u00a752 stk.3 nr.9 SEL": 2,
+            "Kontaktperson \u00a752 stk.3 nr.6 SEL": 5,
+            "Aflastning \u00a752 stk.3 nr.5 SEL": 18,
+            "Lektiehj\u00e6lp": 1
+        },
+        "Freetexts searched for:": {
+            "null": 152,
+            "adhd": 2,
+            "b\u00f8rnepsykologisk": 3,
+            "aflastning": 8,
+            "ensom": 1,
+            "m\u00f8drehj\u00e6lpen": 2,
+            "psykolog": 4,
+            "broen": 2,
+            "lektiehj\u00e6lp": 1
+        },
+        "Themes searched for:": {
+            "23": 5,
+            "20": 4,
+            "22": 3,
+            "1": 8,
+            "32": 7,
+            "26": 6,
+            "17": 2,
+            "34": 2,
+            "null": 145
+        }
+    },
+    "SESSIONS": {
+        "Number of sessions:": 30,
+        "Avg. session length": "0:09:30.656797"
+    }
+}

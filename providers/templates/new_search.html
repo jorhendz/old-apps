@@ -1,0 +1,270 @@
+{% extends 'base.html' %}
+{% block content %}
+<form>
+    <div class="container" style="padding-top: 2em;padding-left: 2em;padding-right: 2em; text-align: left;">
+        <div class="row">
+            <div class="col-3">
+                <b>Type af hjælp
+                </b>
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle btn-block" type="button" id="Ydelser" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ydelser
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  {% for service_category in service_categories %}
+                  <li><a class="dropdown-item" href="#" 
+                    onclick="return setServiceCategory('{{service_category.id}}', '{{service_category}}')"
+                    >{{service_category.name}}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="col-3">
+                <b>Udfordring</b>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle btn-block" style="margin-bottom:0.75em; text-align: left" type="button" id="social_themes" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sociale
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    {% for theme in social_themes %}
+                    <li><a class="dropdown-item"
+                            href="#"
+                            onclick="return setTheme('{{theme.id}}', '{{theme}}')"
+                            >
+                            {{theme.name}}
+                        </a></li>
+                    {% endfor %}
+                    </div>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle btn-block" style="margin-bottom:0.75em; text-align: left" type="button" id="mental_themes" data-bs-toggle="dropdown" aria-expanded="false">
+                    Psykiske
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    {% for theme in mental_themes %}
+                    <!--<li><a class="dropdown-item" onclick="return badgeWithText('Noget text', 'chosenItemsDiv;')">{{theme.name}}</a></li>-->
+                    <li><a class="dropdown-item" href="#" onclick="return setTheme('{{theme.id}}', '{{theme}}');">{{theme.name}}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle btn-block" style="margin-bottom:0.75em; text-align: left" type="button" id="physical_themes" data-bs-toggle="dropdown" aria-expanded="false">
+                    Fysiske
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    {% for theme in physical_themes %}
+                    <li><a class="dropdown-item" href="#" onclick="return setTheme('{{theme.id}}', '{{theme}}')">{{theme.name}}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+
+            <div class="col-3">
+                <b>Geografi</b>
+                <div class="card bg-info mb-3 btn-default" style="max-width: 18rem;background-color: #2bbbad !important">
+                    <div class="card-body">
+                        <h5 class="card-title">Placering</h5>
+                        {% for region in regions %}
+                        <div class="form-check">
+                            <input type="checkbox"
+                                class="form-check-input"
+                                value="{{region.id}}"
+                                id="region-{{region.id}}"
+                                onclick="return setRegion('{{region.id}}', '{{region}}')"
+                                {% if region.id in selected_region_ids %} checked {% endif %}
+                            >
+                            <label class="form-check-label" for="region-{{region.id}}">{{region.name}}</label>
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <b>Kategori</b>
+                <div class="card bg-info mb-3 btn-default btn-block" style="margin-bottom:0.75em !important; padding-top: 0.625rem;padding-bottom: 0.625rem;background-color: #2bbbad !important">
+                <div class="form-check" value="1" id="free">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label" for="free">Frivillige</label>
+                </div>
+                </div>
+                <div class="card bg-info mb-3 btn-default btn-block" style="margin-bottom:0.75em !important; padding-top: 0.625rem;padding-bottom: 0.625rem;background-color: #2bbbad !important">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="1" id="external">
+                    <label class="form-check-label" for="external">Eksterne</label>
+                </div>
+                </div>
+                <div class="card bg-info mb-3 btn-default btn-block" style="margin-bottom:0.75em !important; padding-top: 0.625rem;padding-bottom: 0.625rem;background-color: #2bbbad !important">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="hej" id="internal">
+                    <label class="form-check-label" for="internal">Interne</label>
+                </div>
+                </div>
+            </div>
+
+
+            </div>
+
+        <!-- /row -->
+<div class="row">
+  <div class="col-3">
+    <b>Ventetid</b>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle btn-block" type="button" id="Ventetid" data-bs-toggle="dropdown" aria-expanded="false"style="text-align: left">
+        Ventetid
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        {% for waiting_time_choice in waiting_time_choices %}
+        <li><a class="dropdown-item" href="#" 
+          onclick="return setWaitingTimeChoice('{{waiting_time_choice.id}}', '{{waiting_time_choice}}')">
+          {{waiting_time_choice}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    </div>
+
+  <div class="col-3">
+    <b>Sprog</b>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle btn-block" type="button" id="Sprog" data-bs-toggle="dropdown" aria-expanded="false"style="text-align: left">
+        Sprog
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        {% for language in languages %}
+        <!--<li><a class="dropdown-item" onclick="return badgeWithText('Noget text', 'chosenItemsDiv;')">{{theme.name}}</a></li>-->
+        <li><a 
+          class="dropdown-item"
+          href="#" 
+          onclick="return setLanguage('{{language.id}}', '{{language}}')">
+          {{language.name}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    </div>
+  <div class="col-3">
+
+  </div>
+  <div class="col-3">
+    <b>Køn</b>
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle btn-block" type="button" id="Køn" data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left">
+        Køn
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        {% for sex in sexes %}
+        <!--<li><a class="dropdown-item" onclick="return badgeWithText('Noget text', 'chosenItemsDiv;')">{{theme.name}}</a></li>-->
+        <li><a class="dropdown-item" href="#" 
+          onclick="return setSex('{{sex.id}}', '{{sex}}')">
+          {{sex}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
+</div>
+
+
+<br /><br />
+
+<div class="row">
+  <div class="col-8">
+      <h6>Du har valgt: </h6>
+      <div id="chosenItemsDiv">
+          <!-- Badges go here -->
+      </div>
+  </div>
+</div>
+<div class="row">
+<div class="col-3"></div>
+<div class="col-3"></div>
+<div class="col-3"></div>
+<div class="col-3">
+  <input
+    type="submit"
+    class="btn btn-lg form-control text-center"
+    width="1px%";
+    style="background-color:#2bbbad!important;color:#fff;font-weight:bold;box-shadow:none;"
+    value="Søg",
+    onclick="buildSearchURL()" />
+</div>
+</div>
+</form>
+
+<!-- Results -->
+<div class="row">
+    <!-- TODO: Refactor into own component/html page -->
+
+    <table id="results" class="table table-striped dataTable no-footer">
+        <thead>
+            <tr role="row">
+                <th class="th-sm sorting_asc" tabindex="0" aria-controls="resulttable" rowspan="1" colspan="1" style="width: 274px;" aria-sort="ascending" aria-label=" Firma: activate to sort column descending">
+                    <i class="fa fa-1x fas fa-building"></i> 
+                    <b>Firma</b>
+                    <i class="fa fa-sort float-right" aria-hidden="true"></i>
+                </th>
+                <th class="th-sm sorting" tabindex="0" aria-controls="resulttable" rowspan="1" colspan="1" style="width: 198px;" aria-label=" Tlf.: activate to sort column ascending">
+                    <i class="fa fa-1x fas fa-phone"></i>
+                    <b>Tlf.</b
+                    ><i class="fa fa-sort float-right" aria-hidden="true"></i>
+                </th>
+
+                <th class="th-sm sorting" tabindex="0" aria-controls="resulttable" rowspan="1" colspan="1" style="width: 185px;" aria-label=" Kontaktperson: activate to sort column ascending">
+                    <i class="fas fa-user"></i>
+                    <b>Kontaktperson</b>
+                    <i class="fa fa-sort float-right" aria-hidden="true"></i>
+                </th>
+                <th class="th-sm sorting" tabindex="0" aria-controls="resulttable" rowspan="1" colspan="1" style="width: 146px;" aria-label=" Timepris: activate to sort column ascending">
+                    <i class="fas fa-coins"></i>
+                    <b>Timepris</b>
+                    <i class="fa fa-sort float-right" aria-hidden="true"></i>
+                </th>
+                <th class="th-sm sorting" tabindex="0" aria-controls="resulttable" rowspan="1" colspan="1" style="width: 102px;" aria-label=": activate to sort column ascending">
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+        {% for provider in providers %}
+            <tr style="  " role="row" class="odd">
+                <td class="sorting_1">
+                    <a id="{{provider.id}}" class="returnlink" href="/provider/{{provider.id}}" target="_blank">
+                        {% if provider.logo %}
+                        <img src="{{ provider.logo.url}}" style="max-width:250px;max-height:60px;">
+                        {%endif%}
+                        <p>{{provider.name}}</p>
+                    </a>
+                </td>
+                {%if provider.contact_phone%}
+                <td>{{provider.contact_phone}}</td>
+                {%else%}
+                <td></td>
+                {%endif%}
+                <td>{%if provider.contact_name%} {{provider.contact_name}} {%endif%}</td>
+                {% if provider.is_free %}
+                    <td> Gratis </td>
+                {% else %}
+                    <td>{{provider.price_string}}</td>
+                {% endif %}
+                <td class="text-center ">
+                    <a id="1698" href="/provider/{{provider.id}}" class="btn btn-sm btn-info waves-effect returnlink">Vis mere</a>
+                </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+
+    </table>
+</div>
+
+
+{% endblock content %}
+
+<!-- Bootstrap 5 Dropdown:
+<div class="dropdown">
+    <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown button
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+</div>
+-->

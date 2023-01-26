@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+    'user_id' : '{{ ga_user_info.id }}',
+    'user_type': '{{ ga_user_info.type }}',
+    'user_organization': '{{ ga_user_info.organization }}',
+    'event': 'user_info_set',
+    })
+</script>
+{% endblock head %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'mdb.css' %}" type="text/css" />
+<link rel="stylesheet" href="{% static 'mdb.min.css' %}" type="text/css" />
+<script src="{% static 'mdb.min.js' %}" type="text/javascript"></script>
+
+<div class="container-fluid" style="padding-left: 3em;padding-right:3em;">
+  <br>
+  <h1>Metoder</h1>
+  Her kan du få viden om forskellige typer af metoder, som kan være brugbart i arbejdet med børn, unge og
+  familier.
+  <br /><br />
+  <div class="accordion" id="accordionMethods">
+    {% for method in work_methods %}
+    <div class="accordion-item">
+      <div class="accordion-header" id="workmethod-title{{method.id}}">
+        <h5 class="mb-0">
+          <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#workmethod{{method.id}}" aria-expanded="false" aria-controls="workmethod{{method.id}}">
+            {{ forloop.counter }}) {{method.name}}
+          </button>
+        </h5>
+      </div>
+      <div id="workmethod{{method.id}}" class="accordion-collapse collapse"
+        aria-labelledby="workmethod-title{{method.id}}" data-mdb-parent="#accordionMethods">
+        <div class="accordion-body">
+          {{method.body|safe}}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% endblock content %}

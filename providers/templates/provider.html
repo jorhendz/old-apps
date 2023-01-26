@@ -1,0 +1,417 @@
+{% extends 'base_bulma.html' %} 
+{% load static %}
+{% block head %}
+<script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'user_id': '{{ ga_user_info.id }}',
+        'user_type': '{{ ga_user_info.type }}',
+        'user_organization': '{{ ga_user_info.organization }}',
+        'event': 'user_info_set',
+    })
+</script>
+{% endblock head %} 
+{% block content %}
+
+<br />
+<div class="columns is-centered is-multiline is-mobile ml-4">    
+    <div class="column is-3 mb-0">
+        {% if not provider.is_beginner %} {% if not provider.is_beginner and provider.logo %}
+        <img src="{{provider.logo.url}}" style="max-height:60px; max-width:250px;"> {% endif %} {% endif %}
+    </div>
+    <div class="column is-6 mb-0">
+    </div>
+    <div class="column is-3 pr-4">
+        <!-- Membership badge -->
+        {% if provider.is_expert %}
+            <span 
+                class="tile" 
+                data-bs-toggle="tooltip" 
+                data-bs-placement="bottom" 
+                title="Tilbuddet er særligt godt udfyldt og gør det derfor nemmere for dig at få alle vigtige informationer." 
+            >
+                <div class="tile is-parent is-vertical is-2 pr-2">
+                    <img 
+                        src="{% static 'diamond_icon.svg' %}" 
+                        width="32px" 
+                        height="32px"
+                    />
+                </div>
+                <div class="tile is-parent is-vertical is-10 ">
+                    <span class="title is-5 mb-4">
+                        <label class="unselectable">Ekspert</label>
+                    </span>
+                </div>
+            </span>
+        {% endif %}
+        {% if provider.is_basis %}
+            <span 
+                class="tile" 
+                data-bs-toggle="tooltip" 
+                data-bs-placement="bottom" 
+                title="Tilbuddet er særligt godt udfyldt og gør det derfor nemmere for dig at få alle vigtige informationer." 
+            >
+                <div class="tile is-parent is-vertical is-2 pr-2">
+                    <i class="fa-2x fas fa-star"></i>
+                </div>
+                <div class="tile is-parent is-vertical is-10 ">
+                    <span class="title is-5 mb-4">
+                        <label class="unselectable">Basis</label>
+                    </span>
+                </div>
+            </span>
+        {% endif %}
+    </div>
+
+    <div class="column is-12 mb-0 mt-0 p-0">
+        <hr class="mb-0 mt-0">
+    </div>
+    <div class="column is-3 mt-0">
+        <div class="tile">
+            <div class="tile is-parent is-vertical is-2 pr-2 pt-1">
+                <i class="fa fas fa-2x fa-map-marker-alt"></i>
+            </div>
+            <div class="tile is-parent is-vertical is-10">
+                <p class="has-grey-text">
+                    {{provider}}
+                    <br>
+                    {%if provider.contact_address%} {{provider.contact_address}}
+                    <br> {%endif%} 
+                    {% if provider.contact_postal_code %}
+                    {{provider.contact_postal_code}} 
+                    {% endif %} 
+                    {% if provider.contact_city %} 
+                    {{provider.contact_city}} 
+                    {% endif %} 
+                    {% if provider.contact_city or provider.contact_postal_code%}
+                    <br> <br> 
+                    {%endif%}
+                </p>
+            </div>
+        </div>
+        <br> {% if provider.creditations.all%}
+        <div class="tile ">
+            <div class="tile is-parent is-vertical is-2 pr-2">
+                <i class="fa-2x fas fa-check-circle"></i>
+            </div>
+            <div class="tile is-parent is-vertical is-10 ">
+                <span class="title is-5  mb-4">Kvalitetsmærkning</span>
+                <p class="has-grey-text">
+                    {%for credit in provider.creditations.all%}
+                    <i>{{credit.name}} </i>
+                    <br /> {%endfor%}
+                </p>
+            </div>
+        </div>
+        <br> {% endif %}
+        <div class="tile">
+            <div class="tile is-parent is-vertical is-2 pr-2">
+                <i class="fa-2x fas fa-phone"></i>
+            </div>
+            <div class="tile is-parent is-vertical is-10">
+                <span class="title is-5 mb-4">Kontakt</span>
+                <p class="grey-text">
+                    {% if provider.contact_phone %} 
+                    <button 
+                        id="btn-phone"
+                        class="button is-small mr-4 is-info has-text-left"
+                        style="width: 60%;"
+                        onclick="sendGa4Event('show_phone_number')"
+                    >
+                        <i class="fas fa-phone"></i>
+                        &nbsp;
+                        Vis telefonnummer
+                    </button>
+                        <p id="phone-1" hidden>{{ provider.contact_phone }}</p>                        
+                    {% endif %} 
+                    {% if provider.contact_phone_2 %} 
+                        <p id="phone-2" hidden>{{ provider.contact_phone_2 }}</p>
+                    {% endif %} 
+
+                    {% if provider.membership != 'Ekspert' %}
+                        {% if provider.contact_email%}
+                            <button 
+                                id="btn-email"
+                                class="button is-small mt-1 mr-4 is-info has-text-left"
+                                style="width: 60%;"
+                                onclick="sendGa4Event('show_email_address')"
+                            >
+                                <i class="fas fa-envelope"></i>
+                                &nbsp; 
+                                Vis email
+                            </button>
+                            <a id="email-1" target="_blank" href="mailto:{{provider.contact_email}}" class="is-link is-underlined" hidden>{{provider.contact_email}}</a>
+                        {%endif%} 
+                        {% if provider.contact_email_2%}
+                            <a id="email-1" target="_blank" href="mailto:{{provider.contact_email_2}}" class="is-link is-underlined" hidden>{{provider.contact_email_2}}</a>
+                        {%endif%} 
+                    {% endif %}
+                    {%if not provider.is_beginner and contact_url %}
+                        <a target="_blank" href="{{contact_url}}" class="is-link is-underlined gaTriggerClickedProviderURL">{{provider.contact_website}}</a> {%endif%} {% if provider.contact_name %}
+                    {% endif %}
+                    {% if provider.contact_name %} 
+                        <p>Kontaktperson: <i>{{provider.contact_name}}</i></p>
+                    {% endif %}
+                    
+                    {% if provider.membership == 'Ekspert' %} {% if provider.contact_email %}
+                    <a href="mailto:{{provider.contact_email}}" class="button mt-3 mr-4 is-info has-text-left" target="_blank">
+                        <i class="far fa-envelope"></i>&nbsp; Send forespørgsel
+                    </a>
+                    {% endif %} {% endif %}
+                </p>
+            </div>
+        </div>
+        <br> {% if provider.languages.all%}
+        <div class="tile">
+            <div class="tile is-parent is-vertical is-2 pr-2">
+                <i class="fa-2x fas fa-language"></i>
+            </div>
+            <div class="tile is-parent is-vertical is-10">
+                <span class="title is-5 mb-4">Sprog</span>
+                <p class="has-grey-text">
+                    {% for language in provider.languages.all %}
+                    <i>{{ language }} </i>
+                    <br /> {%endfor%}
+                </p>
+            </div>
+        </div>
+        <br> {% endif %} {% if not provider.is_beginner and provider.municipality_creditations.all %}
+        <div class="tile">
+            <div class="tile is-parent is-vertical is-2 pr-2">
+                <i class="fa-2x fas fa-user-check"></i>
+            </div>
+            <div class="tile is-parent is-vertical is-10 pr-0">
+                <span class="title is-5">Samarbejdskommuner</span> {% for credit in municipality_credits %} 
+                
+                {% if credit.1 %}
+                        <div class="p-0 m-0 is-flex has-tooltip-top">
+                            <figure class="image">
+                                <img src="{{credit.1.url}}" style="max-width:150px;">
+                            </figure>
+                        </div>
+                        <br/>
+                    </nav>
+                {% endif %} 
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+    </div>
+    <div class="column is-6">
+        {% if not provider.is_ready%}
+        <div class="column is-5">
+            <b style="color:red">
+                Denne profil er ikke synlig! Tilføj de manglende oplysninger på din profil og publicér dit
+                tilbud ved at klikke på knappen.
+            </b>
+        </div>
+        {%endif%}
+        <div class="tile">
+            <div class="tile is-parent is-vertical is-12 pb-0 pl-0">
+                <span class="title is-5 mb-4">Velkommen til {{provider.name}}</span>
+                {% if provider.welcome_message != "" %}
+                <div class="mb-0">
+                {{provider.welcome_message|linebreaks}}
+                </div>
+                {% endif %}
+            </div>
+            
+        </div>
+        <hr>
+        <div class="tile">
+            <div class="tile is-parent is-vertical is-12 pl-0">
+                <span class="title is-5 mb-4">Indsatser</span>
+                <p class="mb-3">Virksomheden arbejder indenfor følgende områder:</p>
+                <br>
+            </div>
+        </div>
+        {%for service in services%}
+        <div class="tile mb-1">
+            <!-- service.0 and service.1 and so on are defined in views.py  -->
+
+            <div class="tile is-7 has-grey-text">{{service.0}}</div>
+            <div class="tile  is-2 has-grey-text">
+                <span>
+                    <!-- Service is online-->
+                    {%if service.2 %}
+                    <span class="has-tooltip-top m-0 p-1" data-tooltip="Indsatsen tilbydes online">
+                    <i class="fa fas fa-globe" ></i></span>{%endif%}
+                <!-- transport for service is included -->
+                {%if service.3 %}
+                <span class="has-tooltip-top m-0 p12" data-tooltip="Kørsel er inkluderet i prisen">
+                    <i class="fa fas fa-car-side"></i></span> {%endif%}
+                <!-- admin for service is included -->
+                {%if service.4 %}
+                <span class="has-tooltip-top m-0 p-1" data-tooltip="Administration er inkluderet i prisen">
+                    <i class="fa fas fa-file-invoice"> </i></span> {%endif%}
+                <!-- service is for parents included -->
+                {%if service.5 %}
+                <span class="has-tooltip-top m-0 p-1" data-tooltip="Indsatsen er rettet mod forældre">
+                    <i class="fa fas fa-users"></i></span> {%endif%}
+                </span>
+            </div>
+            <div class="tile is-3 has-grey-text has-text-right"> {{service.1}} </div>
+            <br>
+
+        </div>
+        {%endfor%}
+        <hr> 
+        {% if not provider.is_beginner %} {% if provider.service_description %}
+        <div class="tile">
+            <div class="tile is-vertical is-12">
+                <span class="title is-5 mb-4">Beskrivelse af indsatser</span> {{provider.service_description|linebreaks}}
+                <br>
+            </div>
+        </div>
+        <hr> {% endif %} {% if provider.company_description %}
+        <div class="tile">
+            <div class="tile is-vertical is-12">
+                <span class="title is-5 mb-4">Mere om {{provider}}</span> {{provider.company_description|linebreaks}}
+            </div>
+            <br>
+        </div>
+        <hr> {% endif %} {% if provider.method_description %}
+        <div class="tile">
+            <div class="tile is-vertical is-12">
+                <span class="title is-5 mb-4">Metoder og tilgang</span> {{provider.method_description|linebreaks}}
+            </div>
+            <br>
+        </div>
+        <hr> {% endif %} {% endif %}
+        <div class="tile">
+            <div class="tile is-vertical is-12">
+                <span class="title is-5 mb-4">Udfordringer</span>
+                <p class="has-grey-text">
+                    {%for theme in themes%} {{theme}} <br> {%endfor%}
+                    <br>
+                    <br>
+                </p>
+            </div>
+            <br>
+        </div>
+    </div>
+    <div class="column is-3">
+        <!-- Info tile -->
+        <div class="tile ">
+            <div class="tile is-parent is-vertical is-2 pr-2">
+                <i class="fa-2x fas fa-info"></i>
+            </div>
+            <div class="tile is-parent is-vertical is-10 ">
+                <span class="title is-5 mb-4">Info</span>
+                <p class="has-grey-text">
+                    {%if provider.min_age is not null and provider.max_age is not null%} Alder: {{provider.min_age}} - {{provider.max_age}} år {%elif provider.min_age is not null%} Alder: {{provider.min_age}} - 23 år {%else%} Alder: 0 - 23 år {%endif%}
+                    <br> {% if provider.waiting_time != 'Ikke oplyst' %} Ventetid: {{provider.waiting_time}}
+                    <br> {%endif%} Køn: {{ provider.sexes}} 
+                    <br>
+                </p>
+            </div>
+        </div>
+        <br> {% if provider.status_report_interval == 'Ikke relevant' or provider.status_report_interval == 'Statusrapport ikke oplyst' %} {% else %}
+        <div class="tile ">
+            <div class="tile is-parent is-vertical is-2 pr-2">
+                <i class="fa-2x fas fa-file"></i>
+            </div>
+            <div class="tile is-parent is-vertical is-10 ">
+                <span class="title is-5 mb-4">Statusrapport</span>
+                <p class="grey-text">
+                    {{provider.status_report_interval}}
+                </p>
+            </div>
+        </div>
+        <br> {% endif %}
+        <div class="tile ">
+            <div class="tile is-parent is-vertical is-2 pr-2">
+                <i class="fa-2x fas fa-car"></i>
+            </div>
+            <div class="tile is-parent is-vertical is-10 ">
+                <span class="title is-5 mb-4">Område(r) tilbuddet dækker</span>
+                <p class="grey-text">
+                    
+                    {% for area in area_overview %}
+                        <p>{{ area }}</p>
+                    {% endfor %}
+                    <a class="is-link has-text-weight-bold modal-button has-tooltip-top" data-target="#modal" data-tooltip="Klik her for at se alle postnumre">Se alle postnumre</a>
+                    <div class="modal" id="modal">
+                        <div class="modal-background"></div>
+                        <div class="modal-content">
+                            <div class="column is-centered" id="lol">
+                                
+                                <div class="box has-text-left p-5">
+                                    {% for area, pc_list in area_overview.items %}
+                                        <p><b>{{ area }}</b></p>
+                                        {% for postal_code in pc_list %}
+                                            <p>{{postal_code.number}} {{postal_code.name}}</p>
+                                        {% endfor %}
+                                        <br>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <button class="modal-close is-large" aria-label="close"></button>
+                    </div>
+                </p>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        /** Areas and postal codes */
+
+        // Close the modal when the escape key is pressed.
+        // Use keydown(), because keypress() has unexpected behaviour in some browsers
+        $(document).keydown(function(event) { 
+            if (event.keyCode == 27) {  // escape key 
+                $('#modal').removeClass('is-active');
+            }
+        });
+
+        // Add a click event on various child elements to close the parent modal
+        (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+            const $target = $close.closest('.modal');
+
+            $close.addEventListener('click', () => {
+                $('#modal').removeClass('is-active');
+            });
+        });
+
+
+        /** Phone numbers and email addresses */
+
+        // "Show phone number" button
+        $("#btn-phone").click(function() {
+            $("#phone-1").removeAttr("hidden");
+            $("#phone-2").removeAttr("hidden");
+            $("#btn-phone").hide();
+        });
+
+        // "Show email address" button
+        $("#btn-email").click(function() {
+            $("#email-1").removeAttr("hidden");
+            $("#email-2").removeAttr("hidden");
+            $("#btn-email").hide();
+        });
+    });
+</script>
+
+<script>
+    // GA4 Data Layer
+
+    /** Send event to GA4 container, but not if the
+     *  user visiting this page is the same as the
+     *  provider that owns it. */
+    function sendGa4Event(eventName) {
+        const dont_send_events = '{{ dont_send_events }}';
+        if (dont_send_events === 'True') return;
+
+        dataLayer.push({'event': eventName});
+    }
+</script>
+
+{% endblock content %}
+</body>
+
+</html>

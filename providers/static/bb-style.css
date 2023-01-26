@@ -1,0 +1,80 @@
+/* Links in white with BB primary colour on hover */
+.is-horizontal-center {
+  justify-content: center;
+}
+
+a.bb-light-link {
+  color: white !important;
+}
+
+a.bb-light-link:hover {
+  color: #9BD6CA !important;
+}
+
+button.bb-light-button {
+  background-color: #9BD6CA !important;
+  color: white !important;
+  text-align: center;
+  font-weight:bold;
+}
+
+.bb-light-button {
+  background-color: #9BD6CA !important;
+  color: black !important;
+  text-align: center;
+}
+
+.bb-dark-button {
+  background-color: #496963 !important;
+  color: white !important;
+  text-align: center;
+}
+
+
+.bb-center-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: transparent;
+  display: block;
+  margin: 10px auto 0px auto;
+  background-color: #9BD6CA !important;
+}
+
+hr.bb-hr{
+  background-color: lightgrey ;
+}
+
+button.bold{
+  font-weight: bold;
+}
+
+navbar.is-hidden-mobile{    
+  padding-left: 1rem;
+}
+
+.container {
+  position: relative;
+  margin:0 auto;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+.button.has-text-left {
+  justify-content: flex-start;
+
+}
+
+.button.has-text-right {
+  justify-content: flex-end;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

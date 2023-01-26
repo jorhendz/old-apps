@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Børnebasen.dk</title>
+
+<meta name="description" content="">
+<meta name="author" content="Anders Bach Larsen">
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<link href="https://app.boernebasen.dk/system/css/style.css?1=2" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+  </head>
+  <body>
+<div class="col-md-12">
+<div class="row">
+	<div class="col-md-12">
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark navbar-custom"><a class="navbar-brand" href="main.php"><img width="200" src="logo_bornebasen.png"></a>
+
+  <ul class="navbar-nav">
+  <li class="nav-item">
+  <a class="nav-link" href="main.php">Ny søgning</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="lovgivning.php">Lovgivning</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="method_overview.php">Metoder</a>
+</li>
+  </ul>
+  <ul class="navbar-nav  ml-auto" >
+<li class="nav-item" style="margin-top:15px;margin-right:20px;">
+<form id="searchformfritekst" class="form-inline my-2 my-lg-0">
+<div class="input-group mb-3">
+  <input name="fritekst" type="text" class="form-control" placeholder="Indtast søgeord" aria-label="Indtast søgeord" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button id="soegbtnfritekst" class="btn  btn-md btn-default" >Søg</button>
+  </div>
+</div>
+   </form>
+</li>
+  <li class="nav-item" style="line-height:48px;">
+    <a class="nav-link" href="hjaelp.php">Hjælp</a>
+  </li>
+  <li class="nav-item" style="line-height:48px;">
+    <a class="nav-link" href="index.php?logoff=y">Log ud</a>
+  </li>
+</ul>
+</nav>
+	</div>
+</div>
+</div>
+
+
+
+
+<!--
+  START KØBENHAVN CODE
+  <?
+  //Københavns kommune
+
+ if($_SESSION["kommune"]==17)
+ {
+   if($_GET['launch']=="yes")
+ 	{
+   		?>
+ 	 	<script>
+ 	    $(document).ready(function()
+ 		{
+ 	        $("#myModal").modal('show');
+ 	    });
+ 		</script>
+ 		<?
+ 	}
+
+  if($_GET['load']=="voksne")
+	   {
+
+	   echo "
+	   <script>
+	   $(document).ready(function(){
+	   $('#myTab a[href=\"#profile\"]').tab('show');
+	   });
+	   </script>";
+	   }
+
+  ?>
+
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content text-center">
+        <br /><br />
+        <h1>Velkommen Helene</h1>
+        <h4>
+  Vælg venligst den målgruppe<br />
+  der passer til den hjælp du søger<br /><br />
+  God fornøjelse! </h4>
+
+  <div class="row text-center">
+  <div class="col-sm-6"><a href="main.php" style="color:#000;"><img src="img/boern.png" class="col-sm-10"><br /><b>TILBUD TIL<br />BØRN - UNGE - FAMILIER</b><br /></a></div>
+  <div class="col-sm-6"><a href="main.php?load=voksne" style="color:#000;"><img src="img/voksen.png" class="col-sm-10"><br /><b>TILBUD TIL<br />VOKSNE (OVER 24 ÅR)</b><br /></a></div>
+  </div>
+  <br />
+  <br />
+  <br />
+
+      </div>
+    </div>
+  </div>
+
+
+  <ul class="nav nav-tabs " id="myTab" role="tablist">
+  <li class="nav-item" style="width: 50%;text-align: center;">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" style="font-weight: 500;font-size:24px; line-height:60px;height:80px;">BØRN - UNGE - FAMILIER</a>
+  </li>
+
+
+  <li class="nav-item" style="width: 50%;text-align: center;">
+    <a class="nav-link diffcolor" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false" style="font-weight: 500;font-size:24px; line-height:60px;height:80px;">VOKSNE (OVER 24 ÅR)</a>
+  </li>
+  </ul>
+  <?
+  }
+END KØBENHAVN CODE
+-->
+
+<!-- THIS IS AN OLD COMMENT - WHO KNOWS WHAT IT DOES?! -->
+<!--
+	  <ul class="nav nav-tabs " id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Børn </a>
+  </li>
+-->
+<!--
+  <li class="nav-item">
+  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+  </li>
+  </ul>
+-->
+
+<div class="container-fluid">
+<div class="tab-content" id="maintaps">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+<div class="row">
+<div class="col-md-6">
+
+<!-- <h3>Søg blandt 1000+ interne og eksterne tilbud</h3> -->
+</div>
+<div class="col-md-6 text-right">
+  {% if municipality.logo %}
+    <img src="../admin/logos/{{ municipality.logo.url }}" style="height:55px;">
+  {% else %}
+  <p> No logo </p>
+  {% endif %}
+</div>
+</div>
+
+<hr />
+<div class="col-md-12">
+<div class="row">
+	<div class="col-md-8">
+	</div>
+</div>
+
+<form id="searchform" action="">
+<!--<div class="row"><h4>Tema</h4> <p style="margin-left:10px; margin-top:8px; font-size: 14px;"> Vælg et eller flere temaer</p></div>-->
+<div class="row">
+
+<div class="col-md-3">
+  <div class="col-md-12">
+    <h4>
+        Vælg én ydelse
+    </h4>
+
+    <!-- multiple -->
+    <select name="tilbud[]"  class="tilbud-select colorful-select dropdown-primary"  searchable="Søg her..">
+      <option value="" disabled selected>Vælg ydelse</option>
+      {% for service in all_services %}
+        <option value="{{service.id}}"> {{ service.name }} </option>
+      {% endfor %}
+    </select>
+  </div>
+
+	<div class="col-md-12">
+		<h4>
+			Placering
+		</h4>
+		<select name="placering[]" class="placering-select colorful-select dropdown-primary" >
+          <option value="" disabled selected>Vælg placering</option>
+          {% for region in all_regions %}
+          <option value="{{region.id}}"> {{ region }} </option>
+          {% endfor %}
+		</select>
+	</div>
+
+	<div class="col-md-12">
+			<h4>
+				Vis kun
+			</h4>
+			<div class="row">
+				<div class="col-md-12">
+				<div class="form-check">
+					<input type="checkbox" name="free" class="form-check-input" id="free" value="0">
+					<label class="form-check-label" for="free">Frivillige tilbud</label>
+				</div>
+				</div>
+
+				<div class="col-md-12">
+				<div class="form-check" >
+					<input type="checkbox" name="internal" class="form-check-input" id="internal">
+					<label class="form-check-label" for="internal">Interne tilbud</label>
+				</div>
+				</div>
+			</div>
+	</div>
+</div>
+
+
+	<div class="col-md-2">
+		<h4>
+			Socialt
+		</h4>
+    {% for theme in social_themes %}
+	<div class="form-check">
+      <input type="checkbox" name="temasocialt[]" class="form-check-input" id="<? echo $gettema2['id']; ?>" value="<? echo $gettema2['id']; ?>">
+      <label class="form-check-label" for="{{theme.id}}">{{theme}}</label>
+	</div>
+    {% endfor %}
+
+	</div>
+
+	<div class="col-md-2">
+		<h4>
+			Fysisk
+		</h4>
+    {% for theme in physical_themes %}
+	<div class="form-check">
+      <input type="checkbox" name="temafysisk[]" class="form-check-input" id="{{ theme.id }}" value="{{ theme.id }}">
+      <label class="form-check-label" for="{{theme.id}}">{{theme}}</label>
+	</div>
+    {% endfor %}
+	</div>
+
+	<div class="col-md-2">
+		<h4>
+			Psykisk
+		</h4>
+    {% for theme in mental_themes %}
+	<div class="form-check">
+      <input type="checkbox" name="temapsykisk[]" class="form-check-input" id="{{theme.id}}" value="{{theme.id}}">
+      <label class="form-check-label" for="{{theme.id}}">{{theme}}</label>
+	</div>
+    {% endfor %}
+	</div>
+
+	<div class="col-md-2">
+
+ <div id="ekstra" class="collapse col-md-12">
+	<div class="row" >
+
+<div class="col-md-12">
+
+<h4>Ventetid</h4>
+
+<select name="ventetid[]" class="ventetid-select" multiple>
+
+	<option value="" disabled selected>Vælg ventetid</option>
+	<option value="0">Ikke oplyst</option>
+	<option value="1">Ingen ventetid</option>
+	<option value="2">Efter opgave</option>
+</select>
+</div>
+<div class="col-md-12">
+<h4>Køn</h4>
+
+<select name="koen[]" class="koen-select" multiple>
+<option value="" disabled selected>Vælg køn</option>
+<option selected value="1"> Dreng </option>
+<option selected value="2"> Pige </option>
+</select>
+
+</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+
+	<h4>Sprog</h4>
+	<select name="sprog[]" class="sprog-select" multiple>
+		<option value="" disabled selected>Vælg sprog</option>
+        {% for language in all_languages %}
+          <option  value="{{language.id}}"> {{language}} </option>
+        {% endfor %} 
+	</select>
+	</div>
+	<div class="col-md-12">
+		<h4>Alder</h4>
+		<div class="row">
+		<div class="col-md-12">
+	<select name="maalgruppefra" class="maalgruppefra-select">
+		<option value='' selected> Vælg alder</option>
+        {% for i in allowed_ages %}
+        <option value='{{i}}'> {{i}} år</option>
+        {% endfor %}
+	</select>
+	</div>
+	</div>
+	</div>
+</div>
+	</div>
+	<div class="col-md-12 text-right" >
+<button id="ekstra_btn" type="button" class="btn-copy-code btn btn-outline-grey btn-lg px-2 waves-effect col-md-12" data-toggle="collapse" data-target="#ekstra"><i class="fas fa-caret-down"></i> Vis flere søgemuligheder</button>
+			<button id="soegbtn" class="btn btn-default btn-lg col-md-12">
+				<i class="glyphicon glyphicon-search"></i>Søg
+			</button>
+		</div>
+</div>
+</div> <!-- row end -->
+
+
+
+<br />
+<div class="row">
+</form>
+
+</div>
+
+<!-- More random ass query
+<?
+$con = db_con();
+
+/*$get_antal_udbydere = mysqli_query($con,  "SELECT count(DISTINCT bornebasen_udbydere.id) as antal FROM bornebasen_udbydere
+LEFT join bornebasen_udbydere_tema on bornebasen_udbydere.id = bornebasen_udbydere_tema.udbyder_id
+LEFT join bornebasen_udbydere_type on bornebasen_udbydere.id = bornebasen_udbydere_type.udbyder_id
+WHERE (bornebasen_udbydere_tema.udbyder_id IS null OR bornebasen_udbydere_type.udbyder_id IS null OR bornebasen_udbydere.kontaktperson = ''
+OR bornebasen_udbydere.telefon = ''
+OR bornebasen_udbydere.deleted = 1 OR bornebasen_udbydere.samtykke = 0 OR bornebasen_udbydere.ban = 1) ");
+*/
+$get_antal_udbydere = mysqli_query($con,  "SELECT count(*) AS antal FROM bornebasen_udbydere WHERE deleted = 0 AND ban = 0");
+$row=mysqli_fetch_assoc($get_antal_udbydere);
+//$row = mysqli_fetch_assoc($get_antal_udbydere)
+?>
+-->
+
+
+<div id="loading" style="display:none;">
+<div class="col-md-12 text-center" >
+<img src="fluid-loader.gif" width="100px" /> <h3>Søger blandt <!--<? echo $row['antal']; ?>--> interne og eksterne tilbud...</h3>
+</div>
+</div>
+<div id="results" style="display: none;">
+
+</div>
+
+<?
+	if($kommunedata['kommune'])
+	{
+?>
+<hr />
+<div class="row">
+<div class="col-md-12">
+  <h3>Udvalgte tilbud i {{ municipality }}</h3>
+</div>
+</div>
+<div class="row">
+  {% for selected_provider in selected_providers %}
+    <div class="col-md-3">
+    <div class="card mb-3 text-center" style="display:block !important;">
+      {% if selected_provider.logo %}
+      <img  src="../admin/logos/{{ selected_provider.logo.url }}" style="height:60px;padding:15px;" alt="{{selected_provider}} logo">
+      {% endif %}
+  <div class="card-body" style="padding: 0px 0px 15px 15px !important;">
+    <p class="card-text">{{selected_provider}}<br />{{selected_provider.contact_city}}</p>
+    <p class="card-text"><small class="text-muted"> {{selected_provider.themes}} - {{selected_provider.types}}</small></p>
+    <a id="{{selected_provider.id}}" href="" class="btn btn-sm btn-info waves-effect returnlink">Vis mere</a>
+
+  </div>
+</div>
+</div>
+  {% endfor %}
+</div>
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Bliv inspireret</h3>
+    </div>
+  </div>
+  <div class="row">
+    {% for selected_provider in selected_providers %}
+      <div class="col-md-3">
+        <div class="card mb-3 text-center" style="display:block !important;">
+          {% if selected_provider.logo %}
+          <img  src="../admin/logos/{{selected_provider.logo.url}}" style="height:70px;padding:15px;" alt="{{selected_provider}} logo">
+          {% endif %}
+        <div class="card-body" style="padding: 0px 0px 15px 15px !important;">
+          <p class="card-text">{{ selected_provider }}<br />Område(r) tilbuddet dækker: {{ selected_provider.region }}</p>
+          <p class="card-text"><small class="text-muted">{{ selected_provider.types }}</small></p>
+          <a id="{{ selected_provider.id }}" href="" class="btn btn-sm btn-info waves-effect returnlink">Vis mere</a>
+        </div>
+        </div>
+      </div>
+  {% endfor %}
+  </div>
+
+</div>
+
+
+<script>
+var searchhtml = "";
+	// Material Select Initialization
+$(document).ready(function()
+{
+	$('.tema-select').material_select();
+	$('.placering-select').material_select();
+	$('.tilbud-select').material_select();
+	$('.ventetid-select').material_select();
+	$('.timetakst-select').material_select();
+	$('.koen-select').material_select();
+	$('.sprog-select').material_select();
+	$('.maalgruppefra-select').material_select();
+	$('.postnummerfra-select').material_select();
+	$('.postnummertil-select').material_select();
+
+	$('#searchform').on('submit',function(e) {
+		//window.stop();
+		$("#soegbtn").html("<img src='fluid-loader.gif' width='30px' /> Søger");
+		$("#soegbtn").css('background-color', '#fff');
+		$("#soegbtn").attr("disabled","disabled");
+
+		$.ajax({
+		url:'search_submit.php',
+		data:$(this).serialize(),
+		type:'POST',
+		success:function(data){
+
+			//console.log(data);
+		//=== Show Success Message==
+		//console.log(data);
+		$("#soegbtn").removeAttr("disabled","disabled");
+			$("#soegbtn").html("<i class='glyphicon glyphicon-search'></i>Søg");
+			$("#results").html(data);
+
+			$("#soegbtn").css('background-color', '#2bbbad');
+			$("#results").show();
+			$("#loading").hide();
+			$('#resulttable').DataTable({ "destroy": true,"searching": false,"paging": false, "info": false,
+				"language": { "emptyTable": "Der er desværre ingen der tilbyder det du søger efter. Prøv at lav en bredere søgning for at finde et godt alternativ. God søgning." },
+
+			"columnDefs": [
+				{ "targets": [ 4 ],"visible": false },
+				{ "targets": [ 3 ], "width": '170px' },
+				{ "iDataSort": 4, "aTargets": [ 3 ] }
+			]
+
+			});
+
+
+			$('html, body').animate({
+                    scrollTop: $("#resulttable_wrapper").offset().top
+                }, 400);
+
+		},
+		});
+		e.preventDefault(); //=== To Avoid Page Refresh and Fire the Event "Click"===
+
+});
+
+  $("#soegbtn").on( "click", function() {
+	$('#searchform').submit();
+	$("#results").hide();
+    $("#loading").show();
+  });
+
+$('#ekstra_btn').on('click', function (e) {
+	 console.log( "click!2" );
+if($('#ekstra_btn i').hasClass('fa-caret-down'))
+{
+    $('#ekstra_btn').html('<i class="fas fa-caret-up"></i> Skjul søge muligheder');
+}
+else
+{
+    $('#ekstra_btn').html('<i class="fas fa-caret-down"></i> Vis flere søge muligheder');
+}
+});
+
+// internliste loades
+$('#resulttable2').DataTable({ "searching": false,"paging": false, "info": false, "language": {
+      "emptyTable": "Der er desværre ingen der tilbyder det du søger efter. Prøv at lav en bredere søgning for at finde et godt alternativ. God søgning."
+    } });
+});
+
+</script>
+<style>
+	.input-group button {
+	margin:0px;
+    border: 0px solid #bdbdbd;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    .bg-dark {
+    background-color: #343a40!important;
+}
+
+}
+</style>
+</div> <!-- TAP end -->
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+  	<table id="resulttable2" class="table table-striped">
+      <thead>
+          <tr>
+              <th class="th-sm"><i class="fa fa-1x fas fa-building"></i> <b>Firma</b>
+                  <i class="fa fa-sort float-right" aria-hidden="true"></i>
+              </th>
+              <th class="th-sm"><i class="fa fa-1x fas fa-phone"></i> <b>Tlf.</b><i class="fa fa-sort float-right" aria-hidden="true"></th>
+              <th class="th-sm"><i class="fas fa-user"></i> <b>Kontaktperson</b><i class="fa fa-sort float-right" aria-hidden="true"></th>
+              <th class="th-sm"><i class="fas fa-map-marker-alt"></i> <b>By</b><i class="fa fa-sort float-right" aria-hidden="true"></th>
+              <th class="th-sm"><i class="fas fa-user"></i> <b>Pris pr. time</b><i class="fa fa-sort float-right" aria-hidden="true"></th>
+              <th class="th-sm"></th>
+          </tr>
+      </thead>
+    <tbody>
+<!--
+    	<?
+$con = db_con();
+$udbyder_search_string = "SELECT bornebasen_udbydere.logo, bornebasen_udbydere.id, bornebasen_udbydere.navn, bornebasen_udbydere.telefon, bornebasen_udbydere.telefon2, bornebasen_udbydere.kontaktperson,bornebasen_udbydere.byen, bornebasen_udbydere_type.takst
+FROM bornebasen_udbydere inner join bornebasen_udbydere_type ON bornebasen_udbydere.id = bornebasen_udbydere_type.udbyder_id WHERE bornebasen_udbydere.intern = '".$_SESSION['kommune']."' and bornebasen_udbydere.deleted = 0  AND bornebasen_udbydere.samtykke = 1 group by bornebasen_udbydere.id";
+
+//echo $udbyder_search_string;
+$get_search_udbydere = mysqli_query($con, $udbyder_search_string);
+    	while($udbyder_search = mysqli_fetch_assoc($get_search_udbydere))
+		{
+    	?>
+          <tr>
+            <td><a id="<? echo $udbyder_search['id']; ?>" class="returnlink"  target='_blank'><? if($udbyder_search['logo'] != "") { echo "<img src='../admin/logos/".$udbyder_search['logo']."' height='60px'></br><b>".$udbyder_search['navn']."</b>";  } else {  echo "<b>".$udbyder_search['navn']."</b>"; } ?></a></td>
+            <td><? echo $udbyder_search['telefon']; ?><? if($udbyder_search['telefon2']!="") echo " / " .$udbyder_search['telefon2']; ?></td>
+            <td><? echo $udbyder_search['kontaktperson']; ?></td>
+            <td><? echo $udbyder_search['byen']; ?></td>
+            <td><? if($udbyder_search['takst'] == 0){ echo "Gratis"; } else  if($udbyder_search['takst'] == 1){ echo ""; } else { echo $udbyder_search['takst']; } ?></td>
+            <td class="text-right"><a  id="<? echo $udbyder_search['id']; ?>" href="https://app.boernebasen.dk/system/info.php?uid=<? echo $udbyder_search['id']; ?>" class="btn btn-sm btn-info waves-effect returnlink">Vis mere</a></td>
+        </tr>
+        <? } ?>
+    </tbody>
+    <!-- Table body -->
+-->
+</table>
+
+
+  </div><!-- TAP end -->
+</div>	<!-- tabs end -->
+<script>
+$(document).ready(function()
+{
+	$(".returnlink").on( "click", function(e) {
+	$("#loadinfo").load("info.php?uid="+this.id);
+	$("#myTab").hide();
+	$("#maintaps").hide();
+	$("#loadinfo").show();
+	$("html, body").animate({ scrollTop: 0 }, "slow");
+	e.preventDefault();
+    });
+
+});
+</script>
+
+<div id="loadinfo" style="display: none;"></div>
+
+<script>
+$(document).ready(function()
+{
+	$('#searchformfritekst').on('submit',function(e) {
+		//window.stop();
+		$.ajax({
+		url:'search_submit.php',
+		data:$(this).serialize(),
+		type:'POST',
+		success:function(data){
+		//=== Show Success Message==
+
+		//console.log(data);
+		$("#results").html(data);
+		$('#resulttable').DataTable({ "destroy": true,"searching": false,"paging": false, "info": false,
+			"language": { "emptyTable": "Der er desværre ingen der tilbyder det du søger efter. Prøv at lav en bredere søgning for at finde et godt alternativ. God søgning." },
+			"columnDefs": [
+				{ "targets": [ 4 ], "visible": false },
+				{ "targets": [ 3 ], "width": '170px' },
+				{ "iDataSort": 4, "aTargets": [ 3 ] }
+			] });
+			//console.log("loading data DONE!");
+
+
+			$("#results").show();
+			$("#loading").hide();
+			$("#soegbtnfritekst").removeAttr("disabled","disabled");
+			$("#soegbtnfritekst").html("søg");
+			$('html, body').animate({
+                    scrollTop: $("#resulttable_wrapper").offset().top
+                }, 400);
+			//var result = window.btoa(data);
+
+			//$("#sessionvalue").val(result);
+			//$("#sessionform").submit();
+		},
+		});
+		e.preventDefault(); //=== To Avoid Page Refresh and Fire the Event "Click"===
+
+});
+$("#soegbtnfritekst").on( "click", function(e) {
+	e.preventDefault(); //=== To Avoid Page Refresh and Fire the Event "Click"===
+	$("#maintaps").fadeIn( "slow" );
+	$("#loadinfo").fadeOut( "slow" );
+	$("#myTab").show();
+	$("#myTab a:first").tab("show");
+	$("html, body").animate({ scrollTop: 0 }, "slow");
+	$("#searchformfritekst").submit();
+	$("#results").hide();
+    $("#loading").show();
+    $("#soegbtnfritekst").attr("disabled","disabled");
+	$("#soegbtnfritekst").html("<img src='fluid-loader.gif' width='20px' /> Søger");
+    });
+
+      });//ready
+</script>
+  </body>
+</html>

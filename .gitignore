@@ -1,0 +1,11 @@
+__pycache__/
+data/
+staticfiles/
+.env
+Elm/elm-stuff/
+db_mirrors/
+.vscode/
+.sass-cache/
+venv/
+*.log
+reports/

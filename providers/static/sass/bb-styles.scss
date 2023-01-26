@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+// Set your brand colors
+$mint: #9BD6CA;
+$mint-dark: #496963;
+$grey-dark: #212529;
+$mint-light: #CAEBE4;
+$pastel-yellow: #FFF7AD;
+
+
+// Update Bulma's global variables
+$family-sans-serif: "Roboto-Light", sans-serif;
+$grey-dark: $grey-dark;
+$primary: $mint;
+$primary-invert: $grey-dark;
+$info: $mint-dark;
+$info-invert: white;
+$warning: $pastel-yellow;
+$dark: $grey-dark;
+$link: black;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Nav-bar customizations
+$navbar-height: 4.5rem;
+$navbar-item-img-max-height: unset;
+$hero-body-padding: 2rem !important;
+
+// Font-sizes
+$subtitle-size: 1rem; // instead of font-size this is just called size
+
+// Font-margins
+$title-margin-bottom: 0rem !important;
+
+// Import only what you need from Bulma
+@import "../bulma/sass/utilities/_all.sass";
+@import "../bulma/sass/base/_all.sass";
+@import "../bulma/sass/elements/_all.sass";
+@import "../bulma/sass/form/_all.sass";
+@import "../bulma/sass/components/navbar.sass";
+@import "../bulma/sass/layout/hero.sass";
+@import "../bulma/sass/layout/section.sass";
+@import "../bulma/sass/helpers/typography.sass";
+@import "../bulma/sass/helpers/color.sass";

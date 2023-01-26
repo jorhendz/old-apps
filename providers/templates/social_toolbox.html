@@ -1,0 +1,36 @@
+{% extends 'base_bulma.html' %}
+{% block content %}
+{% load static %}
+
+<div class="columns m-4">
+  <div class="column is-1">
+    <a class="button is-primary" href="/">Tilbage</a>
+    </div>
+  <div class="column is-10">
+
+<div class="title is-4 pt-2">Den faglige værktøjskasse</div>
+<div id="accordion_first">
+  {% for tool in toolbox_tools %}
+	<article class="message">
+    <a style="text-decoration:none;" href="#tool-title{{tool.id}}" data-action="collapse">
+		<div class="message-header has-background-info">
+			<p>{{ forloop.counter }}) {{tool.name}}</p>
+		</div>
+    </a>
+		<div id="tool-title{{tool.id}}" class="message-body is-collapsible" data-parent="accordion_first">
+			<div class="message-body-content">
+				{{tool.body|safe}}
+			</div>
+		</div>
+	</article>
+  {% endfor %}
+</div>
+
+</div>
+</div>
+
+
+
+
+ 	
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block bulma-css %}
+<!-- <link rel="stylesheet" href="{% static 'bulma/css/bulma.css' %}" type="text/css" />  -->
+{% endblock %}
+
+{% block content %}
+
+<div class="container" style="padding-top: 2em;padding-left: 2em;padding-right: 2em; text-align: left;">
+    <div class="row">
+        <div class="col">
+            <p style="margin-bottom: 0.25em;font-weight: bold;font-size:2em">
+                {% if user.first_name %}
+                Velkommen {{ user.first_name }}!
+                {% else %}
+                Velkommen!
+                {% endif %}
+            </p>
+        </div>
+        <div class="col">
+            {% if municipality.logo %}
+            <img src="{{ municipality.logo.url }}" style="float:right; max-height:60px; max-width:250px;">
+            {% endif %}
+        </div>
+    </div>
+</div>
+<div id="myapp"></div>
+<script>
+    var app = Elm.Search.init({
+        node: document.getElementById('myapp'),
+        flags: {% if freetext %} "{{ freetext }}" {% else %} "" {% endif %}
+    });
+</script>
+
+
+
+{% endblock %}

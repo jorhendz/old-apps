@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}" type="text/css" />
+<h1> Hello Børn! </h1>
+<h2> Vil I have nogle tilbud?! </h2>
+{% if providers %}
+<ul>
+    {% for provider in providers %}
+    <li>{{ provider.name }}</li>
+    {% endfor %}
+</ul>
+{% endif %}

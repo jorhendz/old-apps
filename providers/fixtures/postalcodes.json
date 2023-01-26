@@ -1,0 +1,8714 @@
+[
+  {
+    "model": "providers.postalcode",
+    "pk": 1,
+    "fields": {
+      "name": "København K",
+      "number": 1050
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 2,
+    "fields": {
+      "name": "København K",
+      "number": 1051
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 3,
+    "fields": {
+      "name": "København K",
+      "number": 1052
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 4,
+    "fields": {
+      "name": "København K",
+      "number": 1053
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 5,
+    "fields": {
+      "name": "København K",
+      "number": 1054
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 6,
+    "fields": {
+      "name": "København K",
+      "number": 1055
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 7,
+    "fields": {
+      "name": "København K",
+      "number": 1056
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 8,
+    "fields": {
+      "name": "København K",
+      "number": 1057
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 9,
+    "fields": {
+      "name": "København K",
+      "number": 1058
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 10,
+    "fields": {
+      "name": "København K",
+      "number": 1059
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 11,
+    "fields": {
+      "name": "København K",
+      "number": 1060
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 12,
+    "fields": {
+      "name": "København K",
+      "number": 1061
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 13,
+    "fields": {
+      "name": "København K",
+      "number": 1062
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 14,
+    "fields": {
+      "name": "København K",
+      "number": 1063
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 15,
+    "fields": {
+      "name": "København K",
+      "number": 1064
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 16,
+    "fields": {
+      "name": "København K",
+      "number": 1065
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 17,
+    "fields": {
+      "name": "København K",
+      "number": 1066
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 18,
+    "fields": {
+      "name": "København K",
+      "number": 1067
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 19,
+    "fields": {
+      "name": "København K",
+      "number": 1068
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 20,
+    "fields": {
+      "name": "København K",
+      "number": 1069
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 21,
+    "fields": {
+      "name": "København K",
+      "number": 1070
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 22,
+    "fields": {
+      "name": "København K",
+      "number": 1071
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 23,
+    "fields": {
+      "name": "København K",
+      "number": 1072
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 24,
+    "fields": {
+      "name": "København K",
+      "number": 1073
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 25,
+    "fields": {
+      "name": "København K",
+      "number": 1074
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 26,
+    "fields": {
+      "name": "København K",
+      "number": 1100
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 27,
+    "fields": {
+      "name": "København K",
+      "number": 1101
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 28,
+    "fields": {
+      "name": "København K",
+      "number": 1102
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 29,
+    "fields": {
+      "name": "København K",
+      "number": 1103
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 30,
+    "fields": {
+      "name": "København K",
+      "number": 1104
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 31,
+    "fields": {
+      "name": "København K",
+      "number": 1105
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 32,
+    "fields": {
+      "name": "København K",
+      "number": 1106
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 33,
+    "fields": {
+      "name": "København K",
+      "number": 1107
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 34,
+    "fields": {
+      "name": "København K",
+      "number": 1110
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 35,
+    "fields": {
+      "name": "København K",
+      "number": 1111
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 36,
+    "fields": {
+      "name": "København K",
+      "number": 1112
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 37,
+    "fields": {
+      "name": "København K",
+      "number": 1113
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 38,
+    "fields": {
+      "name": "København K",
+      "number": 1114
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 39,
+    "fields": {
+      "name": "København K",
+      "number": 1115
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 40,
+    "fields": {
+      "name": "København K",
+      "number": 1116
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 41,
+    "fields": {
+      "name": "København K",
+      "number": 1117
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 42,
+    "fields": {
+      "name": "København K",
+      "number": 1118
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 43,
+    "fields": {
+      "name": "København K",
+      "number": 1119
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 44,
+    "fields": {
+      "name": "København K",
+      "number": 1120
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 45,
+    "fields": {
+      "name": "København K",
+      "number": 1121
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 46,
+    "fields": {
+      "name": "København K",
+      "number": 1122
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 47,
+    "fields": {
+      "name": "København K",
+      "number": 1123
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 48,
+    "fields": {
+      "name": "København K",
+      "number": 1124
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 49,
+    "fields": {
+      "name": "København K",
+      "number": 1125
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 50,
+    "fields": {
+      "name": "København K",
+      "number": 1126
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 51,
+    "fields": {
+      "name": "København K",
+      "number": 1127
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 52,
+    "fields": {
+      "name": "København K",
+      "number": 1128
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 53,
+    "fields": {
+      "name": "København K",
+      "number": 1129
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 54,
+    "fields": {
+      "name": "København K",
+      "number": 1130
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 55,
+    "fields": {
+      "name": "København K",
+      "number": 1131
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 56,
+    "fields": {
+      "name": "København K",
+      "number": 1150
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 57,
+    "fields": {
+      "name": "København K",
+      "number": 1151
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 58,
+    "fields": {
+      "name": "København K",
+      "number": 1152
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 59,
+    "fields": {
+      "name": "København K",
+      "number": 1153
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 60,
+    "fields": {
+      "name": "København K",
+      "number": 1154
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 61,
+    "fields": {
+      "name": "København K",
+      "number": 1155
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 62,
+    "fields": {
+      "name": "København K",
+      "number": 1156
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 63,
+    "fields": {
+      "name": "København K",
+      "number": 1157
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 64,
+    "fields": {
+      "name": "København K",
+      "number": 1158
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 65,
+    "fields": {
+      "name": "København K",
+      "number": 1159
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 66,
+    "fields": {
+      "name": "København K",
+      "number": 1160
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 67,
+    "fields": {
+      "name": "København K",
+      "number": 1161
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 68,
+    "fields": {
+      "name": "København K",
+      "number": 1162
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 69,
+    "fields": {
+      "name": "København K",
+      "number": 1164
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 70,
+    "fields": {
+      "name": "København K",
+      "number": 1165
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 71,
+    "fields": {
+      "name": "København K",
+      "number": 1166
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 72,
+    "fields": {
+      "name": "København K",
+      "number": 1167
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 73,
+    "fields": {
+      "name": "København K",
+      "number": 1168
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 74,
+    "fields": {
+      "name": "København K",
+      "number": 1169
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 75,
+    "fields": {
+      "name": "København K",
+      "number": 1170
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 76,
+    "fields": {
+      "name": "København K",
+      "number": 1171
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 77,
+    "fields": {
+      "name": "København K",
+      "number": 1172
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 78,
+    "fields": {
+      "name": "København K",
+      "number": 1173
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 79,
+    "fields": {
+      "name": "København K",
+      "number": 1174
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 80,
+    "fields": {
+      "name": "København K",
+      "number": 1175
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 81,
+    "fields": {
+      "name": "København K",
+      "number": 1200
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 82,
+    "fields": {
+      "name": "København K",
+      "number": 1201
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 83,
+    "fields": {
+      "name": "København K",
+      "number": 1202
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 84,
+    "fields": {
+      "name": "København K",
+      "number": 1203
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 85,
+    "fields": {
+      "name": "København K",
+      "number": 1204
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 86,
+    "fields": {
+      "name": "København K",
+      "number": 1205
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 87,
+    "fields": {
+      "name": "København K",
+      "number": 1206
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 88,
+    "fields": {
+      "name": "København K",
+      "number": 1207
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 89,
+    "fields": {
+      "name": "København K",
+      "number": 1208
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 90,
+    "fields": {
+      "name": "København K",
+      "number": 1209
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 91,
+    "fields": {
+      "name": "København K",
+      "number": 1210
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 92,
+    "fields": {
+      "name": "København K",
+      "number": 1211
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 93,
+    "fields": {
+      "name": "København K",
+      "number": 1212
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 94,
+    "fields": {
+      "name": "København K",
+      "number": 1213
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 95,
+    "fields": {
+      "name": "København K",
+      "number": 1214
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 96,
+    "fields": {
+      "name": "København K",
+      "number": 1215
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 97,
+    "fields": {
+      "name": "København K",
+      "number": 1216
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 98,
+    "fields": {
+      "name": "København K",
+      "number": 1218
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 99,
+    "fields": {
+      "name": "København K",
+      "number": 1219
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 100,
+    "fields": {
+      "name": "København K",
+      "number": 1220
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 101,
+    "fields": {
+      "name": "København K",
+      "number": 1221
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 102,
+    "fields": {
+      "name": "København K",
+      "number": 1250
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 103,
+    "fields": {
+      "name": "København K",
+      "number": 1251
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 104,
+    "fields": {
+      "name": "København K",
+      "number": 1252
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 105,
+    "fields": {
+      "name": "København K",
+      "number": 1253
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 106,
+    "fields": {
+      "name": "København K",
+      "number": 1254
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 107,
+    "fields": {
+      "name": "København K",
+      "number": 1255
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 108,
+    "fields": {
+      "name": "København K",
+      "number": 1256
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 109,
+    "fields": {
+      "name": "København K",
+      "number": 1257
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 110,
+    "fields": {
+      "name": "København K",
+      "number": 1259
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 111,
+    "fields": {
+      "name": "København K",
+      "number": 1260
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 112,
+    "fields": {
+      "name": "København K",
+      "number": 1261
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 113,
+    "fields": {
+      "name": "København K",
+      "number": 1263
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 114,
+    "fields": {
+      "name": "København K",
+      "number": 1264
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 115,
+    "fields": {
+      "name": "København K",
+      "number": 1265
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 116,
+    "fields": {
+      "name": "København K",
+      "number": 1266
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 117,
+    "fields": {
+      "name": "København K",
+      "number": 1267
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 118,
+    "fields": {
+      "name": "København K",
+      "number": 1268
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 119,
+    "fields": {
+      "name": "København K",
+      "number": 1270
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 120,
+    "fields": {
+      "name": "København K",
+      "number": 1271
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 121,
+    "fields": {
+      "name": "København K",
+      "number": 1300
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 122,
+    "fields": {
+      "name": "København K",
+      "number": 1301
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 123,
+    "fields": {
+      "name": "København K",
+      "number": 1302
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 124,
+    "fields": {
+      "name": "København K",
+      "number": 1303
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 125,
+    "fields": {
+      "name": "København K",
+      "number": 1304
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 126,
+    "fields": {
+      "name": "København K",
+      "number": 1306
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 127,
+    "fields": {
+      "name": "København K",
+      "number": 1307
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 128,
+    "fields": {
+      "name": "København K",
+      "number": 1308
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 129,
+    "fields": {
+      "name": "København K",
+      "number": 1309
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 130,
+    "fields": {
+      "name": "København K",
+      "number": 1310
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 131,
+    "fields": {
+      "name": "København K",
+      "number": 1311
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 132,
+    "fields": {
+      "name": "København K",
+      "number": 1312
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 133,
+    "fields": {
+      "name": "København K",
+      "number": 1313
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 134,
+    "fields": {
+      "name": "København K",
+      "number": 1314
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 135,
+    "fields": {
+      "name": "København K",
+      "number": 1315
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 136,
+    "fields": {
+      "name": "København K",
+      "number": 1316
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 137,
+    "fields": {
+      "name": "København K",
+      "number": 1317
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 138,
+    "fields": {
+      "name": "København K",
+      "number": 1318
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 139,
+    "fields": {
+      "name": "København K",
+      "number": 1319
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 140,
+    "fields": {
+      "name": "København K",
+      "number": 1320
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 141,
+    "fields": {
+      "name": "København K",
+      "number": 1321
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 142,
+    "fields": {
+      "name": "København K",
+      "number": 1322
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 143,
+    "fields": {
+      "name": "København K",
+      "number": 1323
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 144,
+    "fields": {
+      "name": "København K",
+      "number": 1324
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 145,
+    "fields": {
+      "name": "København K",
+      "number": 1325
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 146,
+    "fields": {
+      "name": "København K",
+      "number": 1326
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 147,
+    "fields": {
+      "name": "København K",
+      "number": 1327
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 148,
+    "fields": {
+      "name": "København K",
+      "number": 1328
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 149,
+    "fields": {
+      "name": "København K",
+      "number": 1329
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 150,
+    "fields": {
+      "name": "København K",
+      "number": 1350
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 151,
+    "fields": {
+      "name": "København K",
+      "number": 1352
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 152,
+    "fields": {
+      "name": "København K",
+      "number": 1353
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 153,
+    "fields": {
+      "name": "København K",
+      "number": 1354
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 154,
+    "fields": {
+      "name": "København K",
+      "number": 1355
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 155,
+    "fields": {
+      "name": "København K",
+      "number": 1356
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 156,
+    "fields": {
+      "name": "København K",
+      "number": 1357
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 157,
+    "fields": {
+      "name": "København K",
+      "number": 1358
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 158,
+    "fields": {
+      "name": "København K",
+      "number": 1359
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 159,
+    "fields": {
+      "name": "København K",
+      "number": 1360
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 160,
+    "fields": {
+      "name": "København K",
+      "number": 1361
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 161,
+    "fields": {
+      "name": "København K",
+      "number": 1362
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 162,
+    "fields": {
+      "name": "København K",
+      "number": 1363
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 163,
+    "fields": {
+      "name": "København K",
+      "number": 1364
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 164,
+    "fields": {
+      "name": "København K",
+      "number": 1365
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 165,
+    "fields": {
+      "name": "København K",
+      "number": 1366
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 166,
+    "fields": {
+      "name": "København K",
+      "number": 1367
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 167,
+    "fields": {
+      "name": "København K",
+      "number": 1368
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 168,
+    "fields": {
+      "name": "København K",
+      "number": 1369
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 169,
+    "fields": {
+      "name": "København K",
+      "number": 1370
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 170,
+    "fields": {
+      "name": "København K",
+      "number": 1371
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 171,
+    "fields": {
+      "name": "København K",
+      "number": 1400
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 172,
+    "fields": {
+      "name": "København K",
+      "number": 1401
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 173,
+    "fields": {
+      "name": "København K",
+      "number": 1402
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 174,
+    "fields": {
+      "name": "København K",
+      "number": 1403
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 175,
+    "fields": {
+      "name": "København K",
+      "number": 1406
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 176,
+    "fields": {
+      "name": "København K",
+      "number": 1407
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 177,
+    "fields": {
+      "name": "København K",
+      "number": 1408
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 178,
+    "fields": {
+      "name": "København K",
+      "number": 1409
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 179,
+    "fields": {
+      "name": "København K",
+      "number": 1410
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 180,
+    "fields": {
+      "name": "København K",
+      "number": 1411
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 181,
+    "fields": {
+      "name": "København K",
+      "number": 1412
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 182,
+    "fields": {
+      "name": "København K",
+      "number": 1413
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 183,
+    "fields": {
+      "name": "København K",
+      "number": 1414
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 184,
+    "fields": {
+      "name": "København K",
+      "number": 1415
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 185,
+    "fields": {
+      "name": "København K",
+      "number": 1416
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 186,
+    "fields": {
+      "name": "København K",
+      "number": 1417
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 187,
+    "fields": {
+      "name": "København K",
+      "number": 1418
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 188,
+    "fields": {
+      "name": "København K",
+      "number": 1419
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 189,
+    "fields": {
+      "name": "København K",
+      "number": 1420
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 190,
+    "fields": {
+      "name": "København K",
+      "number": 1421
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 191,
+    "fields": {
+      "name": "København K",
+      "number": 1422
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 192,
+    "fields": {
+      "name": "København K",
+      "number": 1423
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 193,
+    "fields": {
+      "name": "København K",
+      "number": 1424
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 194,
+    "fields": {
+      "name": "København K",
+      "number": 1425
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 195,
+    "fields": {
+      "name": "København K",
+      "number": 1426
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 196,
+    "fields": {
+      "name": "København K",
+      "number": 1427
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 197,
+    "fields": {
+      "name": "København K",
+      "number": 1428
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 198,
+    "fields": {
+      "name": "København K",
+      "number": 1429
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 199,
+    "fields": {
+      "name": "København K",
+      "number": 1430
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 200,
+    "fields": {
+      "name": "København K",
+      "number": 1432
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 201,
+    "fields": {
+      "name": "København K",
+      "number": 1433
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 202,
+    "fields": {
+      "name": "København K",
+      "number": 1434
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 203,
+    "fields": {
+      "name": "København K",
+      "number": 1435
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 204,
+    "fields": {
+      "name": "København K",
+      "number": 1436
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 205,
+    "fields": {
+      "name": "København K",
+      "number": 1437
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 206,
+    "fields": {
+      "name": "København K",
+      "number": 1438
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 207,
+    "fields": {
+      "name": "København K",
+      "number": 1439
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 208,
+    "fields": {
+      "name": "København K",
+      "number": 1440
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 209,
+    "fields": {
+      "name": "København K",
+      "number": 1441
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 210,
+    "fields": {
+      "name": "København K",
+      "number": 1450
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 211,
+    "fields": {
+      "name": "København K",
+      "number": 1451
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 212,
+    "fields": {
+      "name": "København K",
+      "number": 1452
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 213,
+    "fields": {
+      "name": "København K",
+      "number": 1453
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 214,
+    "fields": {
+      "name": "København K",
+      "number": 1454
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 215,
+    "fields": {
+      "name": "København K",
+      "number": 1455
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 216,
+    "fields": {
+      "name": "København K",
+      "number": 1456
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 217,
+    "fields": {
+      "name": "København K",
+      "number": 1457
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 218,
+    "fields": {
+      "name": "København K",
+      "number": 1458
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 219,
+    "fields": {
+      "name": "København K",
+      "number": 1459
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 220,
+    "fields": {
+      "name": "København K",
+      "number": 1460
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 221,
+    "fields": {
+      "name": "København K",
+      "number": 1461
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 222,
+    "fields": {
+      "name": "København K",
+      "number": 1462
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 223,
+    "fields": {
+      "name": "København K",
+      "number": 1463
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 224,
+    "fields": {
+      "name": "København K",
+      "number": 1464
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 225,
+    "fields": {
+      "name": "København K",
+      "number": 1465
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 226,
+    "fields": {
+      "name": "København K",
+      "number": 1466
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 227,
+    "fields": {
+      "name": "København K",
+      "number": 1467
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 228,
+    "fields": {
+      "name": "København K",
+      "number": 1468
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 229,
+    "fields": {
+      "name": "København K",
+      "number": 1470
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 230,
+    "fields": {
+      "name": "København K",
+      "number": 1471
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 231,
+    "fields": {
+      "name": "København K",
+      "number": 1472
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 232,
+    "fields": {
+      "name": "København K",
+      "number": 1473
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 233,
+    "fields": {
+      "name": "København V",
+      "number": 1550
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 234,
+    "fields": {
+      "name": "København V",
+      "number": 1551
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 235,
+    "fields": {
+      "name": "København V",
+      "number": 1552
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 236,
+    "fields": {
+      "name": "København V",
+      "number": 1553
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 237,
+    "fields": {
+      "name": "København V",
+      "number": 1554
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 238,
+    "fields": {
+      "name": "København V",
+      "number": 1555
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 239,
+    "fields": {
+      "name": "København V",
+      "number": 1556
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 240,
+    "fields": {
+      "name": "København V",
+      "number": 1557
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 241,
+    "fields": {
+      "name": "København V",
+      "number": 1558
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 242,
+    "fields": {
+      "name": "København V",
+      "number": 1559
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 243,
+    "fields": {
+      "name": "København V",
+      "number": 1560
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 244,
+    "fields": {
+      "name": "København V",
+      "number": 1561
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 245,
+    "fields": {
+      "name": "København V",
+      "number": 1562
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 246,
+    "fields": {
+      "name": "København V",
+      "number": 1563
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 247,
+    "fields": {
+      "name": "København V",
+      "number": 1564
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 248,
+    "fields": {
+      "name": "København V",
+      "number": 1567
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 249,
+    "fields": {
+      "name": "København V",
+      "number": 1568
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 250,
+    "fields": {
+      "name": "København V",
+      "number": 1569
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 251,
+    "fields": {
+      "name": "København V",
+      "number": 1570
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 252,
+    "fields": {
+      "name": "København V",
+      "number": 1571
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 253,
+    "fields": {
+      "name": "København V",
+      "number": 1572
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 254,
+    "fields": {
+      "name": "København V",
+      "number": 1573
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 255,
+    "fields": {
+      "name": "København V",
+      "number": 1574
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 256,
+    "fields": {
+      "name": "København V",
+      "number": 1575
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 257,
+    "fields": {
+      "name": "København V",
+      "number": 1576
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 258,
+    "fields": {
+      "name": "København V",
+      "number": 1577
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 259,
+    "fields": {
+      "name": "København V",
+      "number": 1600
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 260,
+    "fields": {
+      "name": "København V",
+      "number": 1601
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 261,
+    "fields": {
+      "name": "København V",
+      "number": 1602
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 262,
+    "fields": {
+      "name": "København V",
+      "number": 1603
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 263,
+    "fields": {
+      "name": "København V",
+      "number": 1604
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 264,
+    "fields": {
+      "name": "København V",
+      "number": 1605
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 265,
+    "fields": {
+      "name": "København V",
+      "number": 1606
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 266,
+    "fields": {
+      "name": "København V",
+      "number": 1607
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 267,
+    "fields": {
+      "name": "København V",
+      "number": 1608
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 268,
+    "fields": {
+      "name": "København V",
+      "number": 1609
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 269,
+    "fields": {
+      "name": "København V",
+      "number": 1610
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 270,
+    "fields": {
+      "name": "København V",
+      "number": 1611
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 271,
+    "fields": {
+      "name": "København V",
+      "number": 1612
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 272,
+    "fields": {
+      "name": "København V",
+      "number": 1613
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 273,
+    "fields": {
+      "name": "København V",
+      "number": 1614
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 274,
+    "fields": {
+      "name": "København V",
+      "number": 1615
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 275,
+    "fields": {
+      "name": "København V",
+      "number": 1616
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 276,
+    "fields": {
+      "name": "København V",
+      "number": 1617
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 277,
+    "fields": {
+      "name": "København V",
+      "number": 1618
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 278,
+    "fields": {
+      "name": "København V",
+      "number": 1619
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 279,
+    "fields": {
+      "name": "København V",
+      "number": 1620
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 280,
+    "fields": {
+      "name": "København V",
+      "number": 1621
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 281,
+    "fields": {
+      "name": "København V",
+      "number": 1622
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 282,
+    "fields": {
+      "name": "København V",
+      "number": 1623
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 283,
+    "fields": {
+      "name": "København V",
+      "number": 1624
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 284,
+    "fields": {
+      "name": "København V",
+      "number": 1631
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 285,
+    "fields": {
+      "name": "København V",
+      "number": 1632
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 286,
+    "fields": {
+      "name": "København V",
+      "number": 1633
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 287,
+    "fields": {
+      "name": "København V",
+      "number": 1634
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 288,
+    "fields": {
+      "name": "København V",
+      "number": 1635
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 289,
+    "fields": {
+      "name": "København V",
+      "number": 1650
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 290,
+    "fields": {
+      "name": "København V",
+      "number": 1651
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 291,
+    "fields": {
+      "name": "København V",
+      "number": 1652
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 292,
+    "fields": {
+      "name": "København V",
+      "number": 1653
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 293,
+    "fields": {
+      "name": "København V",
+      "number": 1654
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 294,
+    "fields": {
+      "name": "København V",
+      "number": 1655
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 295,
+    "fields": {
+      "name": "København V",
+      "number": 1656
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 296,
+    "fields": {
+      "name": "København V",
+      "number": 1657
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 297,
+    "fields": {
+      "name": "København V",
+      "number": 1658
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 298,
+    "fields": {
+      "name": "København V",
+      "number": 1659
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 299,
+    "fields": {
+      "name": "København V",
+      "number": 1660
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 300,
+    "fields": {
+      "name": "København V",
+      "number": 1661
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 301,
+    "fields": {
+      "name": "København V",
+      "number": 1662
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 302,
+    "fields": {
+      "name": "København V",
+      "number": 1663
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 303,
+    "fields": {
+      "name": "København V",
+      "number": 1664
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 304,
+    "fields": {
+      "name": "København V",
+      "number": 1665
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 305,
+    "fields": {
+      "name": "København V",
+      "number": 1666
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 306,
+    "fields": {
+      "name": "København V",
+      "number": 1667
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 307,
+    "fields": {
+      "name": "København V",
+      "number": 1668
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 308,
+    "fields": {
+      "name": "København V",
+      "number": 1669
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 309,
+    "fields": {
+      "name": "København V",
+      "number": 1670
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 310,
+    "fields": {
+      "name": "København V",
+      "number": 1671
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 311,
+    "fields": {
+      "name": "København V",
+      "number": 1672
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 312,
+    "fields": {
+      "name": "København V",
+      "number": 1673
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 313,
+    "fields": {
+      "name": "København V",
+      "number": 1674
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 314,
+    "fields": {
+      "name": "København V",
+      "number": 1675
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 315,
+    "fields": {
+      "name": "København V",
+      "number": 1676
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 316,
+    "fields": {
+      "name": "København V",
+      "number": 1677
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 317,
+    "fields": {
+      "name": "København V",
+      "number": 1699
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 318,
+    "fields": {
+      "name": "København V",
+      "number": 1700
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 319,
+    "fields": {
+      "name": "København V",
+      "number": 1701
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 320,
+    "fields": {
+      "name": "København V",
+      "number": 1702
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 321,
+    "fields": {
+      "name": "København V",
+      "number": 1703
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 322,
+    "fields": {
+      "name": "København V",
+      "number": 1704
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 323,
+    "fields": {
+      "name": "København V",
+      "number": 1705
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 324,
+    "fields": {
+      "name": "København V",
+      "number": 1706
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 325,
+    "fields": {
+      "name": "København V",
+      "number": 1707
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 326,
+    "fields": {
+      "name": "København V",
+      "number": 1708
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 327,
+    "fields": {
+      "name": "København V",
+      "number": 1709
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 328,
+    "fields": {
+      "name": "København V",
+      "number": 1710
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 329,
+    "fields": {
+      "name": "København V",
+      "number": 1711
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 330,
+    "fields": {
+      "name": "København V",
+      "number": 1712
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 331,
+    "fields": {
+      "name": "København V",
+      "number": 1714
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 332,
+    "fields": {
+      "name": "København V",
+      "number": 1715
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 333,
+    "fields": {
+      "name": "København V",
+      "number": 1716
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 334,
+    "fields": {
+      "name": "København V",
+      "number": 1717
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 335,
+    "fields": {
+      "name": "København V",
+      "number": 1718
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 336,
+    "fields": {
+      "name": "København V",
+      "number": 1719
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 337,
+    "fields": {
+      "name": "København V",
+      "number": 1720
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 338,
+    "fields": {
+      "name": "København V",
+      "number": 1721
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 339,
+    "fields": {
+      "name": "København V",
+      "number": 1722
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 340,
+    "fields": {
+      "name": "København V",
+      "number": 1723
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 341,
+    "fields": {
+      "name": "København V",
+      "number": 1724
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 342,
+    "fields": {
+      "name": "København V",
+      "number": 1725
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 343,
+    "fields": {
+      "name": "København V",
+      "number": 1726
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 344,
+    "fields": {
+      "name": "København V",
+      "number": 1727
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 345,
+    "fields": {
+      "name": "København V",
+      "number": 1728
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 346,
+    "fields": {
+      "name": "København V",
+      "number": 1729
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 347,
+    "fields": {
+      "name": "København V",
+      "number": 1730
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 348,
+    "fields": {
+      "name": "København V",
+      "number": 1731
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 349,
+    "fields": {
+      "name": "København V",
+      "number": 1732
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 350,
+    "fields": {
+      "name": "København V",
+      "number": 1733
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 351,
+    "fields": {
+      "name": "København V",
+      "number": 1734
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 352,
+    "fields": {
+      "name": "København V",
+      "number": 1735
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 353,
+    "fields": {
+      "name": "København V",
+      "number": 1736
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 354,
+    "fields": {
+      "name": "København V",
+      "number": 1737
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 355,
+    "fields": {
+      "name": "København V",
+      "number": 1738
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 356,
+    "fields": {
+      "name": "København V",
+      "number": 1739
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 357,
+    "fields": {
+      "name": "København V",
+      "number": 1749
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 358,
+    "fields": {
+      "name": "København V",
+      "number": 1750
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 359,
+    "fields": {
+      "name": "København V",
+      "number": 1751
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 360,
+    "fields": {
+      "name": "København V",
+      "number": 1752
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 361,
+    "fields": {
+      "name": "København V",
+      "number": 1753
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 362,
+    "fields": {
+      "name": "København V",
+      "number": 1754
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 363,
+    "fields": {
+      "name": "København V",
+      "number": 1755
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 364,
+    "fields": {
+      "name": "København V",
+      "number": 1756
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 365,
+    "fields": {
+      "name": "København V",
+      "number": 1757
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 366,
+    "fields": {
+      "name": "København V",
+      "number": 1758
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 367,
+    "fields": {
+      "name": "København V",
+      "number": 1759
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 368,
+    "fields": {
+      "name": "København V",
+      "number": 1760
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 369,
+    "fields": {
+      "name": "København V",
+      "number": 1761
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 370,
+    "fields": {
+      "name": "København V",
+      "number": 1762
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 371,
+    "fields": {
+      "name": "København V",
+      "number": 1763
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 372,
+    "fields": {
+      "name": "København V",
+      "number": 1764
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 373,
+    "fields": {
+      "name": "København V",
+      "number": 1765
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 374,
+    "fields": {
+      "name": "København V",
+      "number": 1766
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 375,
+    "fields": {
+      "name": "København V",
+      "number": 1770
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 376,
+    "fields": {
+      "name": "København V",
+      "number": 1771
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 377,
+    "fields": {
+      "name": "København V",
+      "number": 1772
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 378,
+    "fields": {
+      "name": "København V",
+      "number": 1773
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 379,
+    "fields": {
+      "name": "København V",
+      "number": 1774
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 380,
+    "fields": {
+      "name": "København V",
+      "number": 1775
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 381,
+    "fields": {
+      "name": "København V",
+      "number": 1777
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 382,
+    "fields": {
+      "name": "København V",
+      "number": 1799
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 383,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1800
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 384,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1801
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 385,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1802
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 386,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1803
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 387,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1804
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 388,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1805
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 389,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1806
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 390,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1807
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 391,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1808
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 392,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1809
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 393,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1810
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 394,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1811
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 395,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1812
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 396,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1813
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 397,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1814
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 398,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1815
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 399,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1816
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 400,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1817
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 401,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1818
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 402,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1819
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 403,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1820
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 404,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1822
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 405,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1823
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 406,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1824
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 407,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1825
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 408,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1826
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 409,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1827
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 410,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1828
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 411,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1829
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 412,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1850
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 413,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1851
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 414,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1852
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 415,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1853
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 416,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1854
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 417,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1855
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 418,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1856
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 419,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1857
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 420,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1860
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 421,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1861
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 422,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1862
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 423,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1863
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 424,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1864
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 425,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1865
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 426,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1866
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 427,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1867
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 428,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1868
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 429,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1870
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 430,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1871
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 431,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1872
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 432,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1873
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 433,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1874
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 434,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1875
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 435,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1876
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 436,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1877
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 437,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1878
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 438,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1879
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 439,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1900
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 440,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1901
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 441,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1902
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 442,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1903
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 443,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1904
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 444,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1905
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 445,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1906
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 446,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1908
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 447,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1909
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 448,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1910
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 449,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1911
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 450,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1912
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 451,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1913
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 452,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1914
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 453,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1915
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 454,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1916
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 455,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1917
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 456,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1920
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 457,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1921
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 458,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1922
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 459,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1923
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 460,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1924
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 461,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1925
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 462,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1926
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 463,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1927
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 464,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1928
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 465,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1950
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 466,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1951
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 467,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1952
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 468,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1953
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 469,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1954
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 470,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1955
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 471,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1956
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 472,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1957
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 473,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1958
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 474,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1959
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 475,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1960
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 476,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1961
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 477,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1962
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 478,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1963
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 479,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1964
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 480,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1965
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 481,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1966
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 482,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1967
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 483,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1970
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 484,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1971
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 485,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1972
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 486,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1973
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 487,
+    "fields": {
+      "name": "Frederiksberg C",
+      "number": 1974
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 488,
+    "fields": {
+      "name": "Frederiksberg",
+      "number": 2000
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 489,
+    "fields": {
+      "name": "København Ø",
+      "number": 2100
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 490,
+    "fields": {
+      "name": "Nordhavn",
+      "number": 2150
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 491,
+    "fields": {
+      "name": "København N",
+      "number": 2200
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 492,
+    "fields": {
+      "name": "København S",
+      "number": 2300
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 493,
+    "fields": {
+      "name": "København NV",
+      "number": 2400
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 494,
+    "fields": {
+      "name": "København SV",
+      "number": 2450
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 495,
+    "fields": {
+      "name": "Valby",
+      "number": 2500
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 496,
+    "fields": {
+      "name": "Glostrup",
+      "number": 2600
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 497,
+    "fields": {
+      "name": "Brøndby",
+      "number": 2605
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 498,
+    "fields": {
+      "name": "Rødovre",
+      "number": 2610
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 499,
+    "fields": {
+      "name": "Albertslund",
+      "number": 2620
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 500,
+    "fields": {
+      "name": "Vallensbæk",
+      "number": 2625
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 501,
+    "fields": {
+      "name": "Taastrup",
+      "number": 2630
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 502,
+    "fields": {
+      "name": "Ishøj",
+      "number": 2635
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 503,
+    "fields": {
+      "name": "Hedehusene",
+      "number": 2640
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 504,
+    "fields": {
+      "name": "Hvidovre",
+      "number": 2650
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 505,
+    "fields": {
+      "name": "Brøndby Strand",
+      "number": 2660
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 506,
+    "fields": {
+      "name": "Vallensbæk Strand",
+      "number": 2665
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 507,
+    "fields": {
+      "name": "Greve",
+      "number": 2670
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 508,
+    "fields": {
+      "name": "Solrød Strand",
+      "number": 2680
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 509,
+    "fields": {
+      "name": "Karlslunde",
+      "number": 2690
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 510,
+    "fields": {
+      "name": "Brønshøj",
+      "number": 2700
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 511,
+    "fields": {
+      "name": "Vanløse",
+      "number": 2720
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 512,
+    "fields": {
+      "name": "Herlev",
+      "number": 2730
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 513,
+    "fields": {
+      "name": "Skovlunde",
+      "number": 2740
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 514,
+    "fields": {
+      "name": "Ballerup",
+      "number": 2750
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 515,
+    "fields": {
+      "name": "Måløv",
+      "number": 2760
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 516,
+    "fields": {
+      "name": "Smørum",
+      "number": 2765
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 517,
+    "fields": {
+      "name": "Kastrup",
+      "number": 2770
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 518,
+    "fields": {
+      "name": "Dragør",
+      "number": 2791
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 519,
+    "fields": {
+      "name": "Kongens Lyngby",
+      "number": 2800
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 520,
+    "fields": {
+      "name": "Gentofte",
+      "number": 2820
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 521,
+    "fields": {
+      "name": "Virum",
+      "number": 2830
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 522,
+    "fields": {
+      "name": "Holte",
+      "number": 2840
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 523,
+    "fields": {
+      "name": "Nærum",
+      "number": 2850
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 524,
+    "fields": {
+      "name": "Søborg",
+      "number": 2860
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 525,
+    "fields": {
+      "name": "Dyssegård",
+      "number": 2870
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 526,
+    "fields": {
+      "name": "Bagsværd",
+      "number": 2880
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 527,
+    "fields": {
+      "name": "Hellerup",
+      "number": 2900
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 528,
+    "fields": {
+      "name": "Charlottenlund",
+      "number": 2920
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 529,
+    "fields": {
+      "name": "Klampenborg",
+      "number": 2930
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 530,
+    "fields": {
+      "name": "Skodsborg",
+      "number": 2942
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 531,
+    "fields": {
+      "name": "Vedbæk",
+      "number": 2950
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 532,
+    "fields": {
+      "name": "Rungsted Kyst",
+      "number": 2960
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 533,
+    "fields": {
+      "name": "Hørsholm",
+      "number": 2970
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 534,
+    "fields": {
+      "name": "Kokkedal",
+      "number": 2980
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 535,
+    "fields": {
+      "name": "Nivå",
+      "number": 2990
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 536,
+    "fields": {
+      "name": "Helsingør",
+      "number": 3000
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 537,
+    "fields": {
+      "name": "Humlebæk",
+      "number": 3050
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 538,
+    "fields": {
+      "name": "Espergærde",
+      "number": 3060
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 539,
+    "fields": {
+      "name": "Snekkersten",
+      "number": 3070
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 540,
+    "fields": {
+      "name": "Tikøb",
+      "number": 3080
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 541,
+    "fields": {
+      "name": "Hornbæk",
+      "number": 3100
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 542,
+    "fields": {
+      "name": "Dronningmølle",
+      "number": 3120
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 543,
+    "fields": {
+      "name": "Ålsgårde",
+      "number": 3140
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 544,
+    "fields": {
+      "name": "Hellebæk",
+      "number": 3150
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 545,
+    "fields": {
+      "name": "Helsinge",
+      "number": 3200
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 546,
+    "fields": {
+      "name": "Vejby",
+      "number": 3210
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 547,
+    "fields": {
+      "name": "Tisvildeleje",
+      "number": 3220
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 548,
+    "fields": {
+      "name": "Græsted",
+      "number": 3230
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 549,
+    "fields": {
+      "name": "Gilleleje",
+      "number": 3250
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 550,
+    "fields": {
+      "name": "Frederiksværk",
+      "number": 3300
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 551,
+    "fields": {
+      "name": "Ølsted",
+      "number": 3310
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 552,
+    "fields": {
+      "name": "Skævinge",
+      "number": 3320
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 553,
+    "fields": {
+      "name": "Gørløse",
+      "number": 3330
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 554,
+    "fields": {
+      "name": "Liseleje",
+      "number": 3360
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 555,
+    "fields": {
+      "name": "Melby",
+      "number": 3370
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 556,
+    "fields": {
+      "name": "Hundested",
+      "number": 3390
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 557,
+    "fields": {
+      "name": "Hillerød",
+      "number": 3400
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 558,
+    "fields": {
+      "name": "Allerød",
+      "number": 3450
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 559,
+    "fields": {
+      "name": "Birkerød",
+      "number": 3460
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 560,
+    "fields": {
+      "name": "Fredensborg",
+      "number": 3480
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 561,
+    "fields": {
+      "name": "Kvistgård",
+      "number": 3490
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 562,
+    "fields": {
+      "name": "Værløse",
+      "number": 3500
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 563,
+    "fields": {
+      "name": "Farum",
+      "number": 3520
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 564,
+    "fields": {
+      "name": "Lynge",
+      "number": 3540
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 565,
+    "fields": {
+      "name": "Slangerup",
+      "number": 3550
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 566,
+    "fields": {
+      "name": "Frederikssund",
+      "number": 3600
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 567,
+    "fields": {
+      "name": "Jægerspris",
+      "number": 3630
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 568,
+    "fields": {
+      "name": "Ølstykke",
+      "number": 3650
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 569,
+    "fields": {
+      "name": "Stenløse",
+      "number": 3660
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 570,
+    "fields": {
+      "name": "Veksø Sjælland",
+      "number": 3670
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 571,
+    "fields": {
+      "name": "Rønne",
+      "number": 3700
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 572,
+    "fields": {
+      "name": "Aakirkeby",
+      "number": 3720
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 573,
+    "fields": {
+      "name": "Nexø",
+      "number": 3730
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 574,
+    "fields": {
+      "name": "Svaneke",
+      "number": 3740
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 575,
+    "fields": {
+      "name": "Østermarie",
+      "number": 3751
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 576,
+    "fields": {
+      "name": "Gudhjem",
+      "number": 3760
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 577,
+    "fields": {
+      "name": "Allinge",
+      "number": 3770
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 578,
+    "fields": {
+      "name": "Klemensker",
+      "number": 3782
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 579,
+    "fields": {
+      "name": "Hasle",
+      "number": 3790
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 580,
+    "fields": {
+      "name": "Roskilde",
+      "number": 4000
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 581,
+    "fields": {
+      "name": "Tune",
+      "number": 4030
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 582,
+    "fields": {
+      "name": "Jyllinge",
+      "number": 4040
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 583,
+    "fields": {
+      "name": "Skibby",
+      "number": 4050
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 584,
+    "fields": {
+      "name": "Kirke Såby",
+      "number": 4060
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 585,
+    "fields": {
+      "name": "Kirke Hyllinge",
+      "number": 4070
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 586,
+    "fields": {
+      "name": "Ringsted",
+      "number": 4100
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 587,
+    "fields": {
+      "name": "Viby Sjælland",
+      "number": 4130
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 588,
+    "fields": {
+      "name": "Borup",
+      "number": 4140
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 589,
+    "fields": {
+      "name": "Herlufmagle",
+      "number": 4160
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 590,
+    "fields": {
+      "name": "Glumsø",
+      "number": 4171
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 591,
+    "fields": {
+      "name": "Fjenneslev",
+      "number": 4173
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 592,
+    "fields": {
+      "name": "Jystrup Midtsj",
+      "number": 4174
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 593,
+    "fields": {
+      "name": "Sorø",
+      "number": 4180
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 594,
+    "fields": {
+      "name": "Munke Bjergby",
+      "number": 4190
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 595,
+    "fields": {
+      "name": "Slagelse",
+      "number": 4200
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 596,
+    "fields": {
+      "name": "Korsør",
+      "number": 4220
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 597,
+    "fields": {
+      "name": "Skælskør",
+      "number": 4230
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 598,
+    "fields": {
+      "name": "Vemmelev",
+      "number": 4241
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 599,
+    "fields": {
+      "name": "Boeslunde",
+      "number": 4242
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 600,
+    "fields": {
+      "name": "Rude",
+      "number": 4243
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 601,
+    "fields": {
+      "name": "Agersø",
+      "number": 4244
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 602,
+    "fields": {
+      "name": "Omø",
+      "number": 4245
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 603,
+    "fields": {
+      "name": "Fuglebjerg",
+      "number": 4250
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 604,
+    "fields": {
+      "name": "Dalmose",
+      "number": 4261
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 605,
+    "fields": {
+      "name": "Sandved",
+      "number": 4262
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 606,
+    "fields": {
+      "name": "Høng",
+      "number": 4270
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 607,
+    "fields": {
+      "name": "Gørlev",
+      "number": 4281
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 608,
+    "fields": {
+      "name": "Ruds Vedby",
+      "number": 4291
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 609,
+    "fields": {
+      "name": "Dianalund",
+      "number": 4293
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 610,
+    "fields": {
+      "name": "Stenlille",
+      "number": 4295
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 611,
+    "fields": {
+      "name": "Nyrup",
+      "number": 4296
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 612,
+    "fields": {
+      "name": "Holbæk",
+      "number": 4300
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 613,
+    "fields": {
+      "name": "Orø",
+      "number": 4305
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 614,
+    "fields": {
+      "name": "Lejre",
+      "number": 4320
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 615,
+    "fields": {
+      "name": "Hvalsø",
+      "number": 4330
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 616,
+    "fields": {
+      "name": "Tølløse",
+      "number": 4340
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 617,
+    "fields": {
+      "name": "Ugerløse",
+      "number": 4350
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 618,
+    "fields": {
+      "name": "Kirke Eskilstrup",
+      "number": 4360
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 619,
+    "fields": {
+      "name": "Store Merløse",
+      "number": 4370
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 620,
+    "fields": {
+      "name": "Vipperød",
+      "number": 4390
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 621,
+    "fields": {
+      "name": "Kalundborg",
+      "number": 4400
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 622,
+    "fields": {
+      "name": "Regstrup",
+      "number": 4420
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 623,
+    "fields": {
+      "name": "Mørkøv",
+      "number": 4440
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 624,
+    "fields": {
+      "name": "Jyderup",
+      "number": 4450
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 625,
+    "fields": {
+      "name": "Snertinge",
+      "number": 4460
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 626,
+    "fields": {
+      "name": "Svebølle",
+      "number": 4470
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 627,
+    "fields": {
+      "name": "Store Fuglede",
+      "number": 4480
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 628,
+    "fields": {
+      "name": "Jerslev Sjælland",
+      "number": 4490
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 629,
+    "fields": {
+      "name": "Nykøbing Sj",
+      "number": 4500
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 630,
+    "fields": {
+      "name": "Svinninge",
+      "number": 4520
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 631,
+    "fields": {
+      "name": "Gislinge",
+      "number": 4532
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 632,
+    "fields": {
+      "name": "Hørve",
+      "number": 4534
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 633,
+    "fields": {
+      "name": "Fårevejle",
+      "number": 4540
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 634,
+    "fields": {
+      "name": "Asnæs",
+      "number": 4550
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 635,
+    "fields": {
+      "name": "Vig",
+      "number": 4560
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 636,
+    "fields": {
+      "name": "Grevinge",
+      "number": 4571
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 637,
+    "fields": {
+      "name": "Nørre Asmindrup",
+      "number": 4572
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 638,
+    "fields": {
+      "name": "Højby",
+      "number": 4573
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 639,
+    "fields": {
+      "name": "Rørvig",
+      "number": 4581
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 640,
+    "fields": {
+      "name": "Sjællands Odde",
+      "number": 4583
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 641,
+    "fields": {
+      "name": "Føllenslev",
+      "number": 4591
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 642,
+    "fields": {
+      "name": "Sejerø",
+      "number": 4592
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 643,
+    "fields": {
+      "name": "Eskebjerg",
+      "number": 4593
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 644,
+    "fields": {
+      "name": "Køge",
+      "number": 4600
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 645,
+    "fields": {
+      "name": "Gadstrup",
+      "number": 4621
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 646,
+    "fields": {
+      "name": "Havdrup",
+      "number": 4622
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 647,
+    "fields": {
+      "name": "Lille Skensved",
+      "number": 4623
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 648,
+    "fields": {
+      "name": "Bjæverskov",
+      "number": 4632
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 649,
+    "fields": {
+      "name": "Faxe",
+      "number": 4640
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 650,
+    "fields": {
+      "name": "Hårlev",
+      "number": 4652
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 651,
+    "fields": {
+      "name": "Karise",
+      "number": 4653
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 652,
+    "fields": {
+      "name": "Faxe Ladeplads",
+      "number": 4654
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 653,
+    "fields": {
+      "name": "Store Heddinge",
+      "number": 4660
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 654,
+    "fields": {
+      "name": "Strøby",
+      "number": 4671
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 655,
+    "fields": {
+      "name": "Klippinge",
+      "number": 4672
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 656,
+    "fields": {
+      "name": "Rødvig Stevns",
+      "number": 4673
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 657,
+    "fields": {
+      "name": "Herfølge",
+      "number": 4681
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 658,
+    "fields": {
+      "name": "Tureby",
+      "number": 4682
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 659,
+    "fields": {
+      "name": "Rønnede",
+      "number": 4683
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 660,
+    "fields": {
+      "name": "Holmegaard",
+      "number": 4684
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 661,
+    "fields": {
+      "name": "Haslev",
+      "number": 4690
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 662,
+    "fields": {
+      "name": "Næstved",
+      "number": 4700
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 663,
+    "fields": {
+      "name": "Præstø",
+      "number": 4720
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 664,
+    "fields": {
+      "name": "Tappernøje",
+      "number": 4733
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 665,
+    "fields": {
+      "name": "Mern",
+      "number": 4735
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 666,
+    "fields": {
+      "name": "Karrebæksminde",
+      "number": 4736
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 667,
+    "fields": {
+      "name": "Lundby",
+      "number": 4750
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 668,
+    "fields": {
+      "name": "Vordingborg",
+      "number": 4760
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 669,
+    "fields": {
+      "name": "Kalvehave",
+      "number": 4771
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 670,
+    "fields": {
+      "name": "Langebæk",
+      "number": 4772
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 671,
+    "fields": {
+      "name": "Stensved",
+      "number": 4773
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 672,
+    "fields": {
+      "name": "Stege",
+      "number": 4780
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 673,
+    "fields": {
+      "name": "Borre",
+      "number": 4791
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 674,
+    "fields": {
+      "name": "Askeby",
+      "number": 4792
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 675,
+    "fields": {
+      "name": "Bogø By",
+      "number": 4793
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 676,
+    "fields": {
+      "name": "Nykøbing F",
+      "number": 4800
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 677,
+    "fields": {
+      "name": "Nørre Alslev",
+      "number": 4840
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 678,
+    "fields": {
+      "name": "Stubbekøbing",
+      "number": 4850
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 679,
+    "fields": {
+      "name": "Guldborg",
+      "number": 4862
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 680,
+    "fields": {
+      "name": "Eskilstrup",
+      "number": 4863
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 681,
+    "fields": {
+      "name": "Horbelev",
+      "number": 4871
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 682,
+    "fields": {
+      "name": "Idestrup",
+      "number": 4872
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 683,
+    "fields": {
+      "name": "Væggerløse",
+      "number": 4873
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 684,
+    "fields": {
+      "name": "Gedser",
+      "number": 4874
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 685,
+    "fields": {
+      "name": "Nysted",
+      "number": 4880
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 686,
+    "fields": {
+      "name": "Toreby L",
+      "number": 4891
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 687,
+    "fields": {
+      "name": "Kettinge",
+      "number": 4892
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 688,
+    "fields": {
+      "name": "Øster Ulslev",
+      "number": 4894
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 689,
+    "fields": {
+      "name": "Errindlev",
+      "number": 4895
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 690,
+    "fields": {
+      "name": "Nakskov",
+      "number": 4900
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 691,
+    "fields": {
+      "name": "Harpelunde",
+      "number": 4912
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 692,
+    "fields": {
+      "name": "Horslunde",
+      "number": 4913
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 693,
+    "fields": {
+      "name": "Søllested",
+      "number": 4920
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 694,
+    "fields": {
+      "name": "Maribo",
+      "number": 4930
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 695,
+    "fields": {
+      "name": "Bandholm",
+      "number": 4941
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 696,
+    "fields": {
+      "name": "Askø",
+      "number": 4942
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 697,
+    "fields": {
+      "name": "Torrig L",
+      "number": 4943
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 698,
+    "fields": {
+      "name": "Fejø",
+      "number": 4944
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 699,
+    "fields": {
+      "name": "Femø",
+      "number": 4945
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 700,
+    "fields": {
+      "name": "Nørreballe",
+      "number": 4951
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 701,
+    "fields": {
+      "name": "Stokkemarke",
+      "number": 4952
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 702,
+    "fields": {
+      "name": "Vesterborg",
+      "number": 4953
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 703,
+    "fields": {
+      "name": "Holeby",
+      "number": 4960
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 704,
+    "fields": {
+      "name": "Rødby",
+      "number": 4970
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 705,
+    "fields": {
+      "name": "Dannemare",
+      "number": 4983
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 706,
+    "fields": {
+      "name": "Sakskøbing",
+      "number": 4990
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 707,
+    "fields": {
+      "name": "Odense C",
+      "number": 5000
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 708,
+    "fields": {
+      "name": "Odense V",
+      "number": 5200
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 709,
+    "fields": {
+      "name": "Odense NV",
+      "number": 5210
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 710,
+    "fields": {
+      "name": "Odense SØ",
+      "number": 5220
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 711,
+    "fields": {
+      "name": "Odense M",
+      "number": 5230
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 712,
+    "fields": {
+      "name": "Odense NØ",
+      "number": 5240
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 713,
+    "fields": {
+      "name": "Odense SV",
+      "number": 5250
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 714,
+    "fields": {
+      "name": "Odense S",
+      "number": 5260
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 715,
+    "fields": {
+      "name": "Odense N",
+      "number": 5270
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 716,
+    "fields": {
+      "name": "Marslev",
+      "number": 5290
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 717,
+    "fields": {
+      "name": "Kerteminde",
+      "number": 5300
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 718,
+    "fields": {
+      "name": "Agedrup",
+      "number": 5320
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 719,
+    "fields": {
+      "name": "Munkebo",
+      "number": 5330
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 720,
+    "fields": {
+      "name": "Rynkeby",
+      "number": 5350
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 721,
+    "fields": {
+      "name": "Mesinge",
+      "number": 5370
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 722,
+    "fields": {
+      "name": "Dalby",
+      "number": 5380
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 723,
+    "fields": {
+      "name": "Martofte",
+      "number": 5390
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 724,
+    "fields": {
+      "name": "Bogense",
+      "number": 5400
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 725,
+    "fields": {
+      "name": "Otterup",
+      "number": 5450
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 726,
+    "fields": {
+      "name": "Morud",
+      "number": 5462
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 727,
+    "fields": {
+      "name": "Harndrup",
+      "number": 5463
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 728,
+    "fields": {
+      "name": "Brenderup Fyn",
+      "number": 5464
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 729,
+    "fields": {
+      "name": "Asperup",
+      "number": 5466
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 730,
+    "fields": {
+      "name": "Søndersø",
+      "number": 5471
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 731,
+    "fields": {
+      "name": "Veflinge",
+      "number": 5474
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 732,
+    "fields": {
+      "name": "Skamby",
+      "number": 5485
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 733,
+    "fields": {
+      "name": "Blommenslyst",
+      "number": 5491
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 734,
+    "fields": {
+      "name": "Vissenbjerg",
+      "number": 5492
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 735,
+    "fields": {
+      "name": "Middelfart",
+      "number": 5500
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 736,
+    "fields": {
+      "name": "Ullerslev",
+      "number": 5540
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 737,
+    "fields": {
+      "name": "Langeskov",
+      "number": 5550
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 738,
+    "fields": {
+      "name": "Aarup",
+      "number": 5560
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 739,
+    "fields": {
+      "name": "Nørre Aaby",
+      "number": 5580
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 740,
+    "fields": {
+      "name": "Gelsted",
+      "number": 5591
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 741,
+    "fields": {
+      "name": "Ejby",
+      "number": 5592
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 742,
+    "fields": {
+      "name": "Faaborg",
+      "number": 5600
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 743,
+    "fields": {
+      "name": "Lyø",
+      "number": 5601
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 744,
+    "fields": {
+      "name": "Avernakø",
+      "number": 5602
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 745,
+    "fields": {
+      "name": "Bjørnø",
+      "number": 5603
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 746,
+    "fields": {
+      "name": "Assens",
+      "number": 5610
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 747,
+    "fields": {
+      "name": "Glamsbjerg",
+      "number": 5620
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 748,
+    "fields": {
+      "name": "Ebberup",
+      "number": 5631
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 749,
+    "fields": {
+      "name": "Millinge",
+      "number": 5642
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 750,
+    "fields": {
+      "name": "Broby",
+      "number": 5672
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 751,
+    "fields": {
+      "name": "Haarby",
+      "number": 5683
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 752,
+    "fields": {
+      "name": "Tommerup",
+      "number": 5690
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 753,
+    "fields": {
+      "name": "Svendborg",
+      "number": 5700
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 754,
+    "fields": {
+      "name": "Ringe",
+      "number": 5750
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 755,
+    "fields": {
+      "name": "Vester Skerninge",
+      "number": 5762
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 756,
+    "fields": {
+      "name": "Stenstrup",
+      "number": 5771
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 757,
+    "fields": {
+      "name": "Kværndrup",
+      "number": 5772
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 758,
+    "fields": {
+      "name": "Årslev",
+      "number": 5792
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 759,
+    "fields": {
+      "name": "Nyborg",
+      "number": 5800
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 760,
+    "fields": {
+      "name": "Ørbæk",
+      "number": 5853
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 761,
+    "fields": {
+      "name": "Gislev",
+      "number": 5854
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 762,
+    "fields": {
+      "name": "Ryslinge",
+      "number": 5856
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 763,
+    "fields": {
+      "name": "Ferritslev Fyn",
+      "number": 5863
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 764,
+    "fields": {
+      "name": "Frørup",
+      "number": 5871
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 765,
+    "fields": {
+      "name": "Hesselager",
+      "number": 5874
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 766,
+    "fields": {
+      "name": "Skårup Fyn",
+      "number": 5881
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 767,
+    "fields": {
+      "name": "Vejstrup",
+      "number": 5882
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 768,
+    "fields": {
+      "name": "Oure",
+      "number": 5883
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 769,
+    "fields": {
+      "name": "Gudme",
+      "number": 5884
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 770,
+    "fields": {
+      "name": "Gudbjerg Sydfyn",
+      "number": 5892
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 771,
+    "fields": {
+      "name": "Rudkøbing",
+      "number": 5900
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 772,
+    "fields": {
+      "name": "Humble",
+      "number": 5932
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 773,
+    "fields": {
+      "name": "Bagenkop",
+      "number": 5935
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 774,
+    "fields": {
+      "name": "Strynø",
+      "number": 5943
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 775,
+    "fields": {
+      "name": "Tranekær",
+      "number": 5953
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 776,
+    "fields": {
+      "name": "Marstal",
+      "number": 5960
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 777,
+    "fields": {
+      "name": "Birkholm",
+      "number": 5965
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 778,
+    "fields": {
+      "name": "Ærøskøbing",
+      "number": 5970
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 779,
+    "fields": {
+      "name": "Søby Ærø",
+      "number": 5985
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 780,
+    "fields": {
+      "name": "Kolding",
+      "number": 6000
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 781,
+    "fields": {
+      "name": "Egtved",
+      "number": 6040
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 782,
+    "fields": {
+      "name": "Almind",
+      "number": 6051
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 783,
+    "fields": {
+      "name": "Viuf",
+      "number": 6052
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 784,
+    "fields": {
+      "name": "Jordrup",
+      "number": 6064
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 785,
+    "fields": {
+      "name": "Christiansfeld",
+      "number": 6070
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 786,
+    "fields": {
+      "name": "Bjert",
+      "number": 6091
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 787,
+    "fields": {
+      "name": "Sønder Stenderup",
+      "number": 6092
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 788,
+    "fields": {
+      "name": "Sjølund",
+      "number": 6093
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 789,
+    "fields": {
+      "name": "Hejls",
+      "number": 6094
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 790,
+    "fields": {
+      "name": "Haderslev",
+      "number": 6100
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 791,
+    "fields": {
+      "name": "Aabenraa",
+      "number": 6200
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 792,
+    "fields": {
+      "name": "Barsø",
+      "number": 6210
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 793,
+    "fields": {
+      "name": "Rødekro",
+      "number": 6230
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 794,
+    "fields": {
+      "name": "Løgumkloster",
+      "number": 6240
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 795,
+    "fields": {
+      "name": "Bredebro",
+      "number": 6261
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 796,
+    "fields": {
+      "name": "Tønder",
+      "number": 6270
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 797,
+    "fields": {
+      "name": "Højer",
+      "number": 6280
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 798,
+    "fields": {
+      "name": "Gråsten",
+      "number": 6300
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 799,
+    "fields": {
+      "name": "Broager",
+      "number": 6310
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 800,
+    "fields": {
+      "name": "Egernsund",
+      "number": 6320
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 801,
+    "fields": {
+      "name": "Padborg",
+      "number": 6330
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 802,
+    "fields": {
+      "name": "Kruså",
+      "number": 6340
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 803,
+    "fields": {
+      "name": "Tinglev",
+      "number": 6360
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 804,
+    "fields": {
+      "name": "Bylderup-Bov",
+      "number": 6372
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 805,
+    "fields": {
+      "name": "Bolderslev",
+      "number": 6392
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 806,
+    "fields": {
+      "name": "Sønderborg",
+      "number": 6400
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 807,
+    "fields": {
+      "name": "Nordborg",
+      "number": 6430
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 808,
+    "fields": {
+      "name": "Augustenborg",
+      "number": 6440
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 809,
+    "fields": {
+      "name": "Sydals",
+      "number": 6470
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 810,
+    "fields": {
+      "name": "Vojens",
+      "number": 6500
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 811,
+    "fields": {
+      "name": "Gram",
+      "number": 6510
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 812,
+    "fields": {
+      "name": "Toftlund",
+      "number": 6520
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 813,
+    "fields": {
+      "name": "Agerskov",
+      "number": 6534
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 814,
+    "fields": {
+      "name": "Branderup J",
+      "number": 6535
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 815,
+    "fields": {
+      "name": "Bevtoft",
+      "number": 6541
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 816,
+    "fields": {
+      "name": "Sommersted",
+      "number": 6560
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 817,
+    "fields": {
+      "name": "Vamdrup",
+      "number": 6580
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 818,
+    "fields": {
+      "name": "Vejen",
+      "number": 6600
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 819,
+    "fields": {
+      "name": "Gesten",
+      "number": 6621
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 820,
+    "fields": {
+      "name": "Bække",
+      "number": 6622
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 821,
+    "fields": {
+      "name": "Vorbasse",
+      "number": 6623
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 822,
+    "fields": {
+      "name": "Rødding",
+      "number": 6630
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 823,
+    "fields": {
+      "name": "Lunderskov",
+      "number": 6640
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 824,
+    "fields": {
+      "name": "Brørup",
+      "number": 6650
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 825,
+    "fields": {
+      "name": "Lintrup",
+      "number": 6660
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 826,
+    "fields": {
+      "name": "Holsted",
+      "number": 6670
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 827,
+    "fields": {
+      "name": "Hovborg",
+      "number": 6682
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 828,
+    "fields": {
+      "name": "Føvling",
+      "number": 6683
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 829,
+    "fields": {
+      "name": "Gørding",
+      "number": 6690
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 830,
+    "fields": {
+      "name": "Esbjerg",
+      "number": 6700
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 831,
+    "fields": {
+      "name": "Esbjerg Ø",
+      "number": 6705
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 832,
+    "fields": {
+      "name": "Esbjerg V",
+      "number": 6710
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 833,
+    "fields": {
+      "name": "Esbjerg N",
+      "number": 6715
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 834,
+    "fields": {
+      "name": "Fanø",
+      "number": 6720
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 835,
+    "fields": {
+      "name": "Tjæreborg",
+      "number": 6731
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 836,
+    "fields": {
+      "name": "Bramming",
+      "number": 6740
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 837,
+    "fields": {
+      "name": "Glejbjerg",
+      "number": 6752
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 838,
+    "fields": {
+      "name": "Agerbæk",
+      "number": 6753
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 839,
+    "fields": {
+      "name": "Ribe",
+      "number": 6760
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 840,
+    "fields": {
+      "name": "Gredstedbro",
+      "number": 6771
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 841,
+    "fields": {
+      "name": "Skærbæk",
+      "number": 6780
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 842,
+    "fields": {
+      "name": "Rømø",
+      "number": 6792
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 843,
+    "fields": {
+      "name": "Varde",
+      "number": 6800
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 844,
+    "fields": {
+      "name": "Årre",
+      "number": 6818
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 845,
+    "fields": {
+      "name": "Ansager",
+      "number": 6823
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 846,
+    "fields": {
+      "name": "Nørre Nebel",
+      "number": 6830
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 847,
+    "fields": {
+      "name": "Oksbøl",
+      "number": 6840
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 848,
+    "fields": {
+      "name": "Janderup Vestj",
+      "number": 6851
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 849,
+    "fields": {
+      "name": "Billum",
+      "number": 6852
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 850,
+    "fields": {
+      "name": "Vejers Strand",
+      "number": 6853
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 851,
+    "fields": {
+      "name": "Henne",
+      "number": 6854
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 852,
+    "fields": {
+      "name": "Outrup",
+      "number": 6855
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 853,
+    "fields": {
+      "name": "Blåvand",
+      "number": 6857
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 854,
+    "fields": {
+      "name": "Tistrup",
+      "number": 6862
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 855,
+    "fields": {
+      "name": "Ølgod",
+      "number": 6870
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 856,
+    "fields": {
+      "name": "Tarm",
+      "number": 6880
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 857,
+    "fields": {
+      "name": "Hemmet",
+      "number": 6893
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 858,
+    "fields": {
+      "name": "Skjern",
+      "number": 6900
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 859,
+    "fields": {
+      "name": "Videbæk",
+      "number": 6920
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 860,
+    "fields": {
+      "name": "Kibæk",
+      "number": 6933
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 861,
+    "fields": {
+      "name": "Lem St",
+      "number": 6940
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 862,
+    "fields": {
+      "name": "Ringkøbing",
+      "number": 6950
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 863,
+    "fields": {
+      "name": "Hvide Sande",
+      "number": 6960
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 864,
+    "fields": {
+      "name": "Spjald",
+      "number": 6971
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 865,
+    "fields": {
+      "name": "Ørnhøj",
+      "number": 6973
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 866,
+    "fields": {
+      "name": "Tim",
+      "number": 6980
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 867,
+    "fields": {
+      "name": "Ulfborg",
+      "number": 6990
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 868,
+    "fields": {
+      "name": "Fredericia",
+      "number": 7000
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 869,
+    "fields": {
+      "name": "Børkop",
+      "number": 7080
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 870,
+    "fields": {
+      "name": "Vejle",
+      "number": 7100
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 871,
+    "fields": {
+      "name": "Vejle Øst",
+      "number": 7120
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 872,
+    "fields": {
+      "name": "Juelsminde",
+      "number": 7130
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 873,
+    "fields": {
+      "name": "Stouby",
+      "number": 7140
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 874,
+    "fields": {
+      "name": "Barrit",
+      "number": 7150
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 875,
+    "fields": {
+      "name": "Tørring",
+      "number": 7160
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 876,
+    "fields": {
+      "name": "Uldum",
+      "number": 7171
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 877,
+    "fields": {
+      "name": "Vonge",
+      "number": 7173
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 878,
+    "fields": {
+      "name": "Bredsten",
+      "number": 7182
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 879,
+    "fields": {
+      "name": "Randbøl",
+      "number": 7183
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 880,
+    "fields": {
+      "name": "Vandel",
+      "number": 7184
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 881,
+    "fields": {
+      "name": "Billund",
+      "number": 7190
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 882,
+    "fields": {
+      "name": "Grindsted",
+      "number": 7200
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 883,
+    "fields": {
+      "name": "Hejnsvig",
+      "number": 7250
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 884,
+    "fields": {
+      "name": "Sønder Omme",
+      "number": 7260
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 885,
+    "fields": {
+      "name": "Stakroge",
+      "number": 7270
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 886,
+    "fields": {
+      "name": "Sønder Felding",
+      "number": 7280
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 887,
+    "fields": {
+      "name": "Jelling",
+      "number": 7300
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 888,
+    "fields": {
+      "name": "Gadbjerg",
+      "number": 7321
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 889,
+    "fields": {
+      "name": "Give",
+      "number": 7323
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 890,
+    "fields": {
+      "name": "Brande",
+      "number": 7330
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 891,
+    "fields": {
+      "name": "Ejstrupholm",
+      "number": 7361
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 892,
+    "fields": {
+      "name": "Hampen",
+      "number": 7362
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 893,
+    "fields": {
+      "name": "Herning",
+      "number": 7400
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 894,
+    "fields": {
+      "name": "Ikast",
+      "number": 7430
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 895,
+    "fields": {
+      "name": "Bording",
+      "number": 7441
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 896,
+    "fields": {
+      "name": "Engesvang",
+      "number": 7442
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 897,
+    "fields": {
+      "name": "Sunds",
+      "number": 7451
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 898,
+    "fields": {
+      "name": "Karup J",
+      "number": 7470
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 899,
+    "fields": {
+      "name": "Vildbjerg",
+      "number": 7480
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 900,
+    "fields": {
+      "name": "Aulum",
+      "number": 7490
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 901,
+    "fields": {
+      "name": "Holstebro",
+      "number": 7500
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 902,
+    "fields": {
+      "name": "Haderup",
+      "number": 7540
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 903,
+    "fields": {
+      "name": "Sørvad",
+      "number": 7550
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 904,
+    "fields": {
+      "name": "Hjerm",
+      "number": 7560
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 905,
+    "fields": {
+      "name": "Vemb",
+      "number": 7570
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 906,
+    "fields": {
+      "name": "Struer",
+      "number": 7600
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 907,
+    "fields": {
+      "name": "Lemvig",
+      "number": 7620
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 908,
+    "fields": {
+      "name": "Bøvlingbjerg",
+      "number": 7650
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 909,
+    "fields": {
+      "name": "Bækmarksbro",
+      "number": 7660
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 910,
+    "fields": {
+      "name": "Harboøre",
+      "number": 7673
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 911,
+    "fields": {
+      "name": "Thyborøn",
+      "number": 7680
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 912,
+    "fields": {
+      "name": "Thisted",
+      "number": 7700
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 913,
+    "fields": {
+      "name": "Hanstholm",
+      "number": 7730
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 914,
+    "fields": {
+      "name": "Frøstrup",
+      "number": 7741
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 915,
+    "fields": {
+      "name": "Vesløs",
+      "number": 7742
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 916,
+    "fields": {
+      "name": "Snedsted",
+      "number": 7752
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 917,
+    "fields": {
+      "name": "Bedsted Thy",
+      "number": 7755
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 918,
+    "fields": {
+      "name": "Hurup Thy",
+      "number": 7760
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 919,
+    "fields": {
+      "name": "Vestervig",
+      "number": 7770
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 920,
+    "fields": {
+      "name": "Thyholm",
+      "number": 7790
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 921,
+    "fields": {
+      "name": "Skive",
+      "number": 7800
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 922,
+    "fields": {
+      "name": "Vinderup",
+      "number": 7830
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 923,
+    "fields": {
+      "name": "Højslev",
+      "number": 7840
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 924,
+    "fields": {
+      "name": "Stoholm Jyll",
+      "number": 7850
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 925,
+    "fields": {
+      "name": "Spøttrup",
+      "number": 7860
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 926,
+    "fields": {
+      "name": "Roslev",
+      "number": 7870
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 927,
+    "fields": {
+      "name": "Fur",
+      "number": 7884
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 928,
+    "fields": {
+      "name": "Nykøbing M",
+      "number": 7900
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 929,
+    "fields": {
+      "name": "Erslev",
+      "number": 7950
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 930,
+    "fields": {
+      "name": "Karby",
+      "number": 7960
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 931,
+    "fields": {
+      "name": "Redsted M",
+      "number": 7970
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 932,
+    "fields": {
+      "name": "Vils",
+      "number": 7980
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 933,
+    "fields": {
+      "name": "Øster Assels",
+      "number": 7990
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 934,
+    "fields": {
+      "name": "Aarhus C",
+      "number": 8000
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 935,
+    "fields": {
+      "name": "Aarhus N",
+      "number": 8200
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 936,
+    "fields": {
+      "name": "Aarhus V",
+      "number": 8210
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 937,
+    "fields": {
+      "name": "Brabrand",
+      "number": 8220
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 938,
+    "fields": {
+      "name": "Åbyhøj",
+      "number": 8230
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 939,
+    "fields": {
+      "name": "Risskov",
+      "number": 8240
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 940,
+    "fields": {
+      "name": "Egå",
+      "number": 8250
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 941,
+    "fields": {
+      "name": "Viby J",
+      "number": 8260
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 942,
+    "fields": {
+      "name": "Højbjerg",
+      "number": 8270
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 943,
+    "fields": {
+      "name": "Odder",
+      "number": 8300
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 944,
+    "fields": {
+      "name": "Samsø",
+      "number": 8305
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 945,
+    "fields": {
+      "name": "Tranbjerg J",
+      "number": 8310
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 946,
+    "fields": {
+      "name": "Mårslet",
+      "number": 8320
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 947,
+    "fields": {
+      "name": "Beder",
+      "number": 8330
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 948,
+    "fields": {
+      "name": "Malling",
+      "number": 8340
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 949,
+    "fields": {
+      "name": "Hundslund",
+      "number": 8350
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 950,
+    "fields": {
+      "name": "Solbjerg",
+      "number": 8355
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 951,
+    "fields": {
+      "name": "Hasselager",
+      "number": 8361
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 952,
+    "fields": {
+      "name": "Hørning",
+      "number": 8362
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 953,
+    "fields": {
+      "name": "Hadsten",
+      "number": 8370
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 954,
+    "fields": {
+      "name": "Trige",
+      "number": 8380
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 955,
+    "fields": {
+      "name": "Tilst",
+      "number": 8381
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 956,
+    "fields": {
+      "name": "Hinnerup",
+      "number": 8382
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 957,
+    "fields": {
+      "name": "Ebeltoft",
+      "number": 8400
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 958,
+    "fields": {
+      "name": "Rønde",
+      "number": 8410
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 959,
+    "fields": {
+      "name": "Knebel",
+      "number": 8420
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 960,
+    "fields": {
+      "name": "Balle",
+      "number": 8444
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 961,
+    "fields": {
+      "name": "Hammel",
+      "number": 8450
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 962,
+    "fields": {
+      "name": "Harlev J",
+      "number": 8462
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 963,
+    "fields": {
+      "name": "Galten",
+      "number": 8464
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 964,
+    "fields": {
+      "name": "Sabro",
+      "number": 8471
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 965,
+    "fields": {
+      "name": "Sporup",
+      "number": 8472
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 966,
+    "fields": {
+      "name": "Grenaa",
+      "number": 8500
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 967,
+    "fields": {
+      "name": "Lystrup",
+      "number": 8520
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 968,
+    "fields": {
+      "name": "Hjortshøj",
+      "number": 8530
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 969,
+    "fields": {
+      "name": "Skødstrup",
+      "number": 8541
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 970,
+    "fields": {
+      "name": "Hornslet",
+      "number": 8543
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 971,
+    "fields": {
+      "name": "Mørke",
+      "number": 8544
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 972,
+    "fields": {
+      "name": "Ryomgård",
+      "number": 8550
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 973,
+    "fields": {
+      "name": "Kolind",
+      "number": 8560
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 974,
+    "fields": {
+      "name": "Trustrup",
+      "number": 8570
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 975,
+    "fields": {
+      "name": "Nimtofte",
+      "number": 8581
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 976,
+    "fields": {
+      "name": "Glesborg",
+      "number": 8585
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 977,
+    "fields": {
+      "name": "Ørum Djurs",
+      "number": 8586
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 978,
+    "fields": {
+      "name": "Anholt",
+      "number": 8592
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 979,
+    "fields": {
+      "name": "Silkeborg",
+      "number": 8600
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 980,
+    "fields": {
+      "name": "Kjellerup",
+      "number": 8620
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 981,
+    "fields": {
+      "name": "Lemming",
+      "number": 8632
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 982,
+    "fields": {
+      "name": "Sorring",
+      "number": 8641
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 983,
+    "fields": {
+      "name": "Ans By",
+      "number": 8643
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 984,
+    "fields": {
+      "name": "Them",
+      "number": 8653
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 985,
+    "fields": {
+      "name": "Bryrup",
+      "number": 8654
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 986,
+    "fields": {
+      "name": "Skanderborg",
+      "number": 8660
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 987,
+    "fields": {
+      "name": "Låsby",
+      "number": 8670
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 988,
+    "fields": {
+      "name": "Ry",
+      "number": 8680
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 989,
+    "fields": {
+      "name": "Horsens",
+      "number": 8700
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 990,
+    "fields": {
+      "name": "Daugård",
+      "number": 8721
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 991,
+    "fields": {
+      "name": "Hedensted",
+      "number": 8722
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 992,
+    "fields": {
+      "name": "Løsning",
+      "number": 8723
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 993,
+    "fields": {
+      "name": "Hovedgård",
+      "number": 8732
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 994,
+    "fields": {
+      "name": "Brædstrup",
+      "number": 8740
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 995,
+    "fields": {
+      "name": "Gedved",
+      "number": 8751
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 996,
+    "fields": {
+      "name": "Østbirk",
+      "number": 8752
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 997,
+    "fields": {
+      "name": "Flemming",
+      "number": 8762
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 998,
+    "fields": {
+      "name": "Rask Mølle",
+      "number": 8763
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 999,
+    "fields": {
+      "name": "Klovborg",
+      "number": 8765
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1000,
+    "fields": {
+      "name": "Nørre Snede",
+      "number": 8766
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1001,
+    "fields": {
+      "name": "Stenderup",
+      "number": 8781
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1002,
+    "fields": {
+      "name": "Hornsyld",
+      "number": 8783
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1003,
+    "fields": {
+      "name": "Endelave",
+      "number": 8789
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1004,
+    "fields": {
+      "name": "Tunø",
+      "number": 8799
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1005,
+    "fields": {
+      "name": "Viborg",
+      "number": 8800
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1006,
+    "fields": {
+      "name": "Tjele",
+      "number": 8830
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1007,
+    "fields": {
+      "name": "Løgstrup",
+      "number": 8831
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1008,
+    "fields": {
+      "name": "Skals",
+      "number": 8832
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1009,
+    "fields": {
+      "name": "Rødkærsbro",
+      "number": 8840
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1010,
+    "fields": {
+      "name": "Bjerringbro",
+      "number": 8850
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1011,
+    "fields": {
+      "name": "Ulstrup",
+      "number": 8860
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1012,
+    "fields": {
+      "name": "Langå",
+      "number": 8870
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1013,
+    "fields": {
+      "name": "Thorsø",
+      "number": 8881
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1014,
+    "fields": {
+      "name": "Fårvang",
+      "number": 8882
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1015,
+    "fields": {
+      "name": "Gjern",
+      "number": 8883
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1016,
+    "fields": {
+      "name": "Randers C",
+      "number": 8900
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1017,
+    "fields": {
+      "name": "Randers NV",
+      "number": 8920
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1018,
+    "fields": {
+      "name": "Randers NØ",
+      "number": 8930
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1019,
+    "fields": {
+      "name": "Randers SV",
+      "number": 8940
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1020,
+    "fields": {
+      "name": "Ørsted",
+      "number": 8950
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1021,
+    "fields": {
+      "name": "Randers SØ",
+      "number": 8960
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1022,
+    "fields": {
+      "name": "Allingåbro",
+      "number": 8961
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1023,
+    "fields": {
+      "name": "Auning",
+      "number": 8963
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1024,
+    "fields": {
+      "name": "Havndal",
+      "number": 8970
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1025,
+    "fields": {
+      "name": "Spentrup",
+      "number": 8981
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1026,
+    "fields": {
+      "name": "Gjerlev J",
+      "number": 8983
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1027,
+    "fields": {
+      "name": "Fårup",
+      "number": 8990
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1028,
+    "fields": {
+      "name": "Aalborg",
+      "number": 9000
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1029,
+    "fields": {
+      "name": "Aalborg SV",
+      "number": 9200
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1030,
+    "fields": {
+      "name": "Aalborg SØ",
+      "number": 9210
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1031,
+    "fields": {
+      "name": "Aalborg Øst",
+      "number": 9220
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1032,
+    "fields": {
+      "name": "Svenstrup J",
+      "number": 9230
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1033,
+    "fields": {
+      "name": "Nibe",
+      "number": 9240
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1034,
+    "fields": {
+      "name": "Gistrup",
+      "number": 9260
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1035,
+    "fields": {
+      "name": "Klarup",
+      "number": 9270
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1036,
+    "fields": {
+      "name": "Storvorde",
+      "number": 9280
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1037,
+    "fields": {
+      "name": "Kongerslev",
+      "number": 9293
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1038,
+    "fields": {
+      "name": "Sæby",
+      "number": 9300
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1039,
+    "fields": {
+      "name": "Vodskov",
+      "number": 9310
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1040,
+    "fields": {
+      "name": "Hjallerup",
+      "number": 9320
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1041,
+    "fields": {
+      "name": "Dronninglund",
+      "number": 9330
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1042,
+    "fields": {
+      "name": "Asaa",
+      "number": 9340
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1043,
+    "fields": {
+      "name": "Dybvad",
+      "number": 9352
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1044,
+    "fields": {
+      "name": "Gandrup",
+      "number": 9362
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1045,
+    "fields": {
+      "name": "Hals",
+      "number": 9370
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1046,
+    "fields": {
+      "name": "Vestbjerg",
+      "number": 9380
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1047,
+    "fields": {
+      "name": "Sulsted",
+      "number": 9381
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1048,
+    "fields": {
+      "name": "Tylstrup",
+      "number": 9382
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1049,
+    "fields": {
+      "name": "Nørresundby",
+      "number": 9400
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1050,
+    "fields": {
+      "name": "Vadum",
+      "number": 9430
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1051,
+    "fields": {
+      "name": "Aabybro",
+      "number": 9440
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1052,
+    "fields": {
+      "name": "Brovst",
+      "number": 9460
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1053,
+    "fields": {
+      "name": "Løkken",
+      "number": 9480
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1054,
+    "fields": {
+      "name": "Pandrup",
+      "number": 9490
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1055,
+    "fields": {
+      "name": "Blokhus",
+      "number": 9492
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1056,
+    "fields": {
+      "name": "Saltum",
+      "number": 9493
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1057,
+    "fields": {
+      "name": "Hobro",
+      "number": 9500
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1058,
+    "fields": {
+      "name": "Arden",
+      "number": 9510
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1059,
+    "fields": {
+      "name": "Skørping",
+      "number": 9520
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1060,
+    "fields": {
+      "name": "Støvring",
+      "number": 9530
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1061,
+    "fields": {
+      "name": "Suldrup",
+      "number": 9541
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1062,
+    "fields": {
+      "name": "Mariager",
+      "number": 9550
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1063,
+    "fields": {
+      "name": "Hadsund",
+      "number": 9560
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1064,
+    "fields": {
+      "name": "Bælum",
+      "number": 9574
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1065,
+    "fields": {
+      "name": "Terndrup",
+      "number": 9575
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1066,
+    "fields": {
+      "name": "Aars",
+      "number": 9600
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1067,
+    "fields": {
+      "name": "Nørager",
+      "number": 9610
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1068,
+    "fields": {
+      "name": "Aalestrup",
+      "number": 9620
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1069,
+    "fields": {
+      "name": "Gedsted",
+      "number": 9631
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1070,
+    "fields": {
+      "name": "Møldrup",
+      "number": 9632
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1071,
+    "fields": {
+      "name": "Farsø",
+      "number": 9640
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1072,
+    "fields": {
+      "name": "Løgstør",
+      "number": 9670
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1073,
+    "fields": {
+      "name": "Ranum",
+      "number": 9681
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1074,
+    "fields": {
+      "name": "Fjerritslev",
+      "number": 9690
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1075,
+    "fields": {
+      "name": "Brønderslev",
+      "number": 9700
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1076,
+    "fields": {
+      "name": "Jerslev J",
+      "number": 9740
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1077,
+    "fields": {
+      "name": "Østervrå",
+      "number": 9750
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1078,
+    "fields": {
+      "name": "Vrå",
+      "number": 9760
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1079,
+    "fields": {
+      "name": "Hjørring",
+      "number": 9800
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1080,
+    "fields": {
+      "name": "Tårs",
+      "number": 9830
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1081,
+    "fields": {
+      "name": "Hirtshals",
+      "number": 9850
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1082,
+    "fields": {
+      "name": "Sindal",
+      "number": 9870
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1083,
+    "fields": {
+      "name": "Bindslev",
+      "number": 9881
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1084,
+    "fields": {
+      "name": "Frederikshavn",
+      "number": 9900
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1085,
+    "fields": {
+      "name": "Læsø",
+      "number": 9940
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1086,
+    "fields": {
+      "name": "Strandby",
+      "number": 9970
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1087,
+    "fields": {
+      "name": "Jerup",
+      "number": 9981
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1088,
+    "fields": {
+      "name": "Ålbæk",
+      "number": 9982
+    }
+  },
+  {
+    "model": "providers.postalcode",
+    "pk": 1089,
+    "fields": {
+      "name": "Skagen",
+      "number": 9990
+    }
+  }
+]

@@ -1,0 +1,5 @@
+# Pages that don't require the user to be logged in
+
+login/
+help/
+api/
